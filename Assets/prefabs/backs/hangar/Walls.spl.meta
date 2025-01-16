@@ -1,0 +1,19 @@
+﻿{
+	"sprites" :
+	{
+		"count" : 1,
+		"Elem" : [
+			{
+				"pos.x" : 0.000000,
+				"pos.y" : 0.000000,
+				"scale" : 1.000000,
+				"texture" :
+				{
+					"Path" : "prefabs/backs/hangar/wall.png",
+					"sliceIndex" : -1,
+					"animIndex" : -1
+				}
+			}
+		]
+	}
+}

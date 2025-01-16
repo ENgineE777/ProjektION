@@ -1,0 +1,285 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 845216,
+			"type" : "KatanaStand",
+			"name" : "KatanaStand",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 54.000000,
+					"y" : 72.000000,
+					"z" : 20.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 1.000000,
+					"z" : 0.500000
+				}
+			},
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 0.000000,
+				"a" : 0.250000
+			},
+			"desc.hitRadius" : 6.000000,
+			"desc.speed" : 840.000000,
+			"desc.maxDistance" : 1000.000000,
+			"oneTimeUse" : true,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 389200,
+					"type" : "AnimGraph2D",
+					"name" : "Tank",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 20.000000,
+							"z" : 0.002000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 23.000000,
+							"y" : 25.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/levelobjects/katanastand/stand.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 284685,
+					"type" : "SpriteEntity",
+					"name" : "KnifeSprite",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.800276,
+							"y" : 33.480457,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 6.000000,
+							"y" : 17.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/knife/knife.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 633080,
+					"type" : "AnimGraph2D",
+					"name" : "KnifeAnim",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.800276,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 6.000000,
+							"y" : 17.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/effects/knife/knifeag.ang"
+					},
+					"drawLevel" : 8,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 25629,
+					"type" : "SpriteEntity",
+					"name" : "Trail",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 58.000000,
+							"y" : 10.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 1.000000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/knife/trail.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000
+				}
+			]
+		}
+	]
+}

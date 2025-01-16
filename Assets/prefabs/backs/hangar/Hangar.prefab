@@ -1,0 +1,5017 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 984481792,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 64.000000,
+					"y" : 64.000000,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 90439680,
+					"type" : "TileMap",
+					"name" : "Parallax1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.010000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"drawLevel" : 5,
+					"tileSet" :
+					{
+						"Path" : "prefabs/tilesets/hangar/map.tls"
+					},
+					"color" :
+					{
+						"r" : 0.062745,
+						"g" : 0.192157,
+						"b" : 0.431373,
+						"a" : 0.490196
+					},
+					"lightGroup" : 8,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.960000,
+					"paralax.y" : 0.960000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true,
+					"count" : 128,
+					"Tile" : [
+						{
+							"x" : -8,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 5,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 5,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 5,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 5,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : 3,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 4,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 4,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 4,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : 3,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 3,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 3,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 3,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 3,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 2,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 2,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 2,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 2,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 1,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 1,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 1,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 1,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : 0,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : 0,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : 0,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : 0,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : -1,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : -1,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : -1,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : -1,
+							"index" : 392
+						},
+						{
+							"x" : -8,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : -7,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : -6,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : -5,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : -4,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : -3,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : -2,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : -1,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : 0,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : 1,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : 3,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : 4,
+							"y" : -2,
+							"index" : 393
+						},
+						{
+							"x" : 5,
+							"y" : -2,
+							"index" : 395
+						},
+						{
+							"x" : 6,
+							"y" : -2,
+							"index" : 394
+						},
+						{
+							"x" : 7,
+							"y" : -2,
+							"index" : 392
+						},
+						{
+							"x" : 2,
+							"y" : 4,
+							"index" : 393
+						},
+						{
+							"x" : 2,
+							"y" : 3,
+							"index" : 393
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -675086336,
+					"type" : "TileMap",
+					"name" : "Parallax2",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.009000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"drawLevel" : 5,
+					"tileSet" :
+					{
+						"Path" : "prefabs/tilesets/hangar/map.tls"
+					},
+					"color" :
+					{
+						"r" : 0.062745,
+						"g" : 0.192157,
+						"b" : 0.431373,
+						"a" : 0.490196
+					},
+					"lightGroup" : 8,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.940000,
+					"paralax.y" : 0.940000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true,
+					"count" : 16,
+					"Tile" : [
+						{
+							"x" : -1,
+							"y" : 5,
+							"index" : 452
+						},
+						{
+							"x" : 0,
+							"y" : 5,
+							"index" : 451
+						},
+						{
+							"x" : -1,
+							"y" : 4,
+							"index" : 449
+						},
+						{
+							"x" : 0,
+							"y" : 4,
+							"index" : 450
+						},
+						{
+							"x" : -1,
+							"y" : 3,
+							"index" : 452
+						},
+						{
+							"x" : 0,
+							"y" : 3,
+							"index" : 451
+						},
+						{
+							"x" : -1,
+							"y" : 2,
+							"index" : 449
+						},
+						{
+							"x" : 0,
+							"y" : 2,
+							"index" : 450
+						},
+						{
+							"x" : -1,
+							"y" : 1,
+							"index" : 452
+						},
+						{
+							"x" : 0,
+							"y" : 1,
+							"index" : 451
+						},
+						{
+							"x" : -1,
+							"y" : 0,
+							"index" : 449
+						},
+						{
+							"x" : 0,
+							"y" : 0,
+							"index" : 450
+						},
+						{
+							"x" : -1,
+							"y" : -1,
+							"index" : 452
+						},
+						{
+							"x" : 0,
+							"y" : -1,
+							"index" : 451
+						},
+						{
+							"x" : -1,
+							"y" : -2,
+							"index" : 449
+						},
+						{
+							"x" : 0,
+							"y" : -2,
+							"index" : 450
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1313210368,
+					"type" : "TileMap",
+					"name" : "Parallax3",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.008000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"drawLevel" : 5,
+					"tileSet" :
+					{
+						"Path" : "prefabs/tilesets/hangar/map.tls"
+					},
+					"color" :
+					{
+						"r" : 0.062745,
+						"g" : 0.192157,
+						"b" : 0.431373,
+						"a" : 0.490196
+					},
+					"lightGroup" : 8,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true,
+					"count" : 51,
+					"Tile" : [
+						{
+							"x" : -5,
+							"y" : 3,
+							"index" : 456
+						},
+						{
+							"x" : -4,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : -3,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : -2,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : -1,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 0,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 1,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 2,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 3,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 4,
+							"y" : 3,
+							"index" : 457
+						},
+						{
+							"x" : 5,
+							"y" : 3,
+							"index" : 458
+						},
+						{
+							"x" : -5,
+							"y" : 2,
+							"index" : 453
+						},
+						{
+							"x" : -4,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : -3,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : -2,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : -1,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 0,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 1,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 2,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 3,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 4,
+							"y" : 2,
+							"index" : 454
+						},
+						{
+							"x" : 5,
+							"y" : 2,
+							"index" : 455
+						},
+						{
+							"x" : -3,
+							"y" : 1,
+							"index" : 511
+						},
+						{
+							"x" : 3,
+							"y" : 1,
+							"index" : 511
+						},
+						{
+							"x" : -3,
+							"y" : 0,
+							"index" : 514
+						},
+						{
+							"x" : 3,
+							"y" : 0,
+							"index" : 514
+						},
+						{
+							"x" : -5,
+							"y" : -1,
+							"index" : 456
+						},
+						{
+							"x" : -4,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : -3,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : -2,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : -1,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 0,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 1,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 2,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 3,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 4,
+							"y" : -1,
+							"index" : 457
+						},
+						{
+							"x" : 5,
+							"y" : -1,
+							"index" : 458
+						},
+						{
+							"x" : -5,
+							"y" : -2,
+							"index" : 453
+						},
+						{
+							"x" : -4,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : -3,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : -2,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : -1,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 0,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 1,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 2,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 3,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 4,
+							"y" : -2,
+							"index" : 454
+						},
+						{
+							"x" : 5,
+							"y" : -2,
+							"index" : 455
+						},
+						{
+							"x" : 5,
+							"y" : 0,
+							"index" : 513
+						},
+						{
+							"x" : 1,
+							"y" : 0,
+							"index" : 513
+						},
+						{
+							"x" : -5,
+							"y" : 0,
+							"index" : 513
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2129264640,
+					"type" : "SpriteEntity",
+					"name" : "glow",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -89.699364,
+							"y" : -29.195503,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2127298560,
+					"type" : "SpriteEntity",
+					"name" : "glow1",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -107.383209,
+							"y" : 74.742165,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 711589888,
+					"type" : "SpriteEntity",
+					"name" : "glow2",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -107.383217,
+							"y" : 67.885193,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2026438656,
+					"type" : "SpriteEntity",
+					"name" : "glow3",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -72.376404,
+							"y" : 75.103065,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 913244160,
+					"type" : "SpriteEntity",
+					"name" : "glow4",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -35.204247,
+							"y" : 75.103065,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -286523392,
+					"type" : "SpriteEntity",
+					"name" : "glow5",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.524334,
+							"y" : 75.103065,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1695416320,
+					"type" : "SpriteEntity",
+					"name" : "glow6",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 36.252930,
+							"y" : 75.103065,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 193986560,
+					"type" : "SpriteEntity",
+					"name" : "glow7",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 72.342415,
+							"y" : 75.463959,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -343670784,
+					"type" : "SpriteEntity",
+					"name" : "glow8",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 108.431892,
+							"y" : 75.103050,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1330905088,
+					"type" : "SpriteEntity",
+					"name" : "glow9",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 143.799591,
+							"y" : 75.103050,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1303773184,
+					"type" : "SpriteEntity",
+					"name" : "glow10",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 180.250076,
+							"y" : 75.103035,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1926889472,
+					"type" : "SpriteEntity",
+					"name" : "glow11",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 180.250061,
+							"y" : 68.606934,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2078146560,
+					"type" : "SpriteEntity",
+					"name" : "glow12",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 179.888763,
+							"y" : -68.534676,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1568210944,
+					"type" : "SpriteEntity",
+					"name" : "glow13",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 143.438370,
+							"y" : -68.534676,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1540292608,
+					"type" : "SpriteEntity",
+					"name" : "glow14",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 108.431580,
+							"y" : -69.256454,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 120389632,
+					"type" : "SpriteEntity",
+					"name" : "glow15",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 72.342087,
+							"y" : -68.534676,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -259981312,
+					"type" : "SpriteEntity",
+					"name" : "glow16",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 36.252598,
+							"y" : -68.895576,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1261895680,
+					"type" : "SpriteEntity",
+					"name" : "glow17",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 1.245782,
+							"y" : -68.534668,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2096824320,
+					"type" : "SpriteEntity",
+					"name" : "glow18",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -36.287308,
+							"y" : -68.534668,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2038431744,
+					"type" : "SpriteEntity",
+					"name" : "glow19",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -72.015884,
+							"y" : -68.534660,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1744633856,
+					"type" : "SpriteEntity",
+					"name" : "glow20",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -107.744446,
+							"y" : -68.895576,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -688193536,
+					"type" : "SpriteEntity",
+					"name" : "glow21",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -144.194839,
+							"y" : -68.534676,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1561722880,
+					"type" : "SpriteEntity",
+					"name" : "glow22",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -143.833954,
+							"y" : -75.391693,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 142213120,
+					"type" : "SpriteEntity",
+					"name" : "glow23",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -107.383583,
+							"y" : -75.391701,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1143799808,
+					"type" : "SpriteEntity",
+					"name" : "glow24",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -71.654991,
+							"y" : -75.030823,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -589692928,
+					"type" : "SpriteEntity",
+					"name" : "glow25",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -35.565521,
+							"y" : -75.391716,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1980366848,
+					"type" : "SpriteEntity",
+					"name" : "glow26",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.163079,
+							"y" : -75.752609,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1542127616,
+					"type" : "SpriteEntity",
+					"name" : "glow27",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 36.613449,
+							"y" : -75.030830,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -851705856,
+					"type" : "SpriteEntity",
+					"name" : "glow28",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 71.981163,
+							"y" : -75.030815,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 91553792,
+					"type" : "SpriteEntity",
+					"name" : "glow29",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 108.070679,
+							"y" : -75.030807,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1909587968,
+					"type" : "SpriteEntity",
+					"name" : "glow30",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 144.160187,
+							"y" : -75.391701,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1324089344,
+					"type" : "SpriteEntity",
+					"name" : "glow31",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 180.249649,
+							"y" : -75.391708,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2006777856,
+					"type" : "SpriteEntity",
+					"name" : "glow12",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 144.160583,
+							"y" : 68.967842,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.501961
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2079916032,
+					"type" : "SpriteEntity",
+					"name" : "glow13",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 108.431999,
+							"y" : 68.967842,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -761135104,
+					"type" : "SpriteEntity",
+					"name" : "glow14",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 72.703362,
+							"y" : 68.606926,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2121400320,
+					"type" : "SpriteEntity",
+					"name" : "glow15",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 36.613892,
+							"y" : 68.606926,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 823459840,
+					"type" : "SpriteEntity",
+					"name" : "glow16",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -0.558278,
+							"y" : 68.246025,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -827392000,
+					"type" : "SpriteEntity",
+					"name" : "glow17",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -35.925987,
+							"y" : 68.606926,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -341311488,
+					"type" : "SpriteEntity",
+					"name" : "glow18",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -71.654572,
+							"y" : 68.606926,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 782696448,
+					"type" : "SpriteEntity",
+					"name" : "glow19",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -143.833527,
+							"y" : 75.463905,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2085617664,
+					"type" : "SpriteEntity",
+					"name" : "glow20",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -143.472672,
+							"y" : 68.606926,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.501961
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.376471
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1301151744,
+					"type" : "SpriteEntity",
+					"name" : "glow",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -89.699394,
+							"y" : 28.834642,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1392705536,
+					"type" : "SpriteEntity",
+					"name" : "glow",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 126.285995,
+							"y" : 28.473740,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1961820160,
+					"type" : "SpriteEntity",
+					"name" : "glow",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 126.285965,
+							"y" : -28.473738,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 39.000000,
+							"y" : 39.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1194590208,
+					"type" : "SpriteEntity",
+					"name" : "ship",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 140.000000,
+							"y" : -0.877001,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 144.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 0.062745,
+						"g" : 0.192157,
+						"b" : 0.431373,
+						"a" : 0.588235
+					},
+					"emmisive" :
+					{
+						"r" : 0.015686,
+						"g" : 0.960784,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : true,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1902772224,
+					"type" : "DefferedLight",
+					"name" : "DefferedLight",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 10.597766,
+							"y" : 57.187771,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"metallic" : 0.250000,
+					"useFilter" : false,
+					"globalLights" :
+					{
+						"count" : 0,
+						"Elem" : [
+
+						]
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2041053184,
+					"type" : "SpriteEntity",
+					"name" : "ship",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -98.000000,
+							"y" : -0.493275,
+							"z" : 0.007000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 144.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelprops/hangar/shuttle/shuttle_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 0.062745,
+						"g" : 0.192157,
+						"b" : 0.431373,
+						"a" : 0.588235
+					},
+					"emmisive" :
+					{
+						"r" : 0.015686,
+						"g" : 0.960784,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : true,
+					"paralax.x" : 0.920000,
+					"paralax.y" : 0.920000,
+					"autoTileH" : true,
+					"autoTileV" : true,
+					"autoCalcTileZone" : false,
+					"zoneSize" :
+					{
+						"x" : 576.000000,
+						"y" : 288.000000
+					},
+					"usePortlas" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1664090112,
+					"type" : "SpriteEntity",
+					"name" : "backfog",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.006000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 2.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 559.000000,
+							"y" : 360.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/backfog.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.250980
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : true,
+					"paralax.x" : 0.000000,
+					"paralax.y" : 0.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 559.000000,
+						"y" : 360.000000
+					},
+					"usePortlas" : true
+				}
+			]
+		}
+	]
+}

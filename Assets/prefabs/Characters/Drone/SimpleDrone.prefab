@@ -1,0 +1,503 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 996239,
+			"type" : "ShootingDrone",
+			"name" : "ShootingDrone",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"distanceToInstantKill" : 18.000000,
+			"maxTimeToPlayerAppear" : 1.000000,
+			"sensors" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"coneAngle" : 60.000000,
+						"directionAngle" : 0.000000,
+						"distance" : 225.000000,
+						"alwaysVisibleDistance" : 50.000000
+					}
+				]
+			},
+			"moveSpeed" : 0.000000,
+			"stopAtPathPointsTime" : 0.000000,
+			"shouldStopOnlyAtEndPoints" : false,
+			"loopPath" : false,
+			"rotationSpeed" : 90.000000,
+			"aimSpeed" : 800.000000,
+			"returnSpeed" : 200.000000,
+			"overrideMoveSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideStopAtPathPointsTime" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideShouldStopOnlyAtEndPoints" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideRotationSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideAimSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideReturnSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideTimeToPlayerAppear" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 955719,
+					"type" : "SpriteEntity",
+					"name" : "body",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -90.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 20.000000,
+							"y" : 20.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.490000,
+							"z" : 0.000000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_turret.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_turret_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_turret_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 752296,
+					"type" : "SpriteEntity",
+					"name" : "muzzle",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 17.654133,
+							"y" : 0.332846,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 32.000000,
+							"y" : 9.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/shooteffect/muzzle.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 9,
+					"noZ" : true,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 176399,
+					"type" : "PointLight2D",
+					"name" : "flash",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 300.000000,
+							"y" : 300.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 0.007843,
+						"a" : 1.000000
+					},
+					"falloff" : 0.000000,
+					"intesity" : 1.000000,
+					"lineWidth" : 0.000000,
+					"viewAngle" : 181.000000,
+					"castShadow" : false
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 755907,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 24.000000,
+							"y" : 25.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 8,
+					"affectOnParent" : true,
+					"height" : 1.000000,
+					"radius" : 12.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 569718,
+					"type" : "Node2D",
+					"name" : "body_parts",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 128402,
+							"type" : "PhysEntity2D",
+							"name" : "body",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 19.980509,
+									"y" : 19.980509,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 1,
+							"bodyType" : 1,
+							"physGroup" : 1,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 612456,
+									"type" : "SpriteEntity",
+									"name" : "body",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -90.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 20.000000,
+											"y" : 20.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/drone/sprites/drone_laser4.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/drone/sprites/drone_laser4_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/drone/sprites/drone_laser4_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 2,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

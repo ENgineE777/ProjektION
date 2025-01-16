@@ -1,0 +1,233 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : true,
+			"uid" : -1002307584,
+			"type" : "prefabs/characters/thing/thing.prefab",
+			"name" : "Player1",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 70.185364,
+					"y" : -432.000000,
+					"z" : -0.002000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+
+			]
+		},
+		{
+			"prefabInstance" : true,
+			"uid" : 702152704,
+			"type" : "prefabs/levelobjects/hangar/light/default.prefab",
+			"name" : "default.prefab",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 64.000000,
+					"y" : 64.000000,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+
+			]
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 594673664,
+			"type" : "CutSceneSendJoe",
+			"name" : "CutSceneSendJoe",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : true,
+					"uid" : 1138688000,
+					"type" : "cutscenes/captainroom/captainroom.prefab",
+					"name" : "captainroom",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+
+					]
+				}
+			]
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 471007232,
+			"type" : "PhysEntity2D",
+			"name" : "PhysEntity2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 104.776192,
+					"y" : -540.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 216.318848,
+					"y" : 74.293770,
+					"z" : 50.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 0.000000,
+				"a" : 0.250000
+			},
+			"bodyShape" : 0,
+			"bodyType" : 0,
+			"physGroup" : 4,
+			"visibleDuringPlay" : true,
+			"affectOnParent" : false
+		}
+	]
+}

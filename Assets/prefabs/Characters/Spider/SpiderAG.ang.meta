@@ -1,0 +1,171 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 9.333333,
+		"y" : -49.333336
+	},
+	"camZoom" : 1.400000,
+	"def_node" : 2,
+	"Count" : 4,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -247.333405,
+				"y" : 78.333374
+			},
+			"name" : "Run",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/spider/run.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/spider/run_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/spider/run_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Activated"
+				},
+				{
+					"index" : 2,
+					"name" : "Idle"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 128.047577,
+				"y" : 79.238190
+			},
+			"name" : "RunActivated",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/spider/runactivated.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/spider/runactivated_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/spider/runactivated_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Run"
+				},
+				{
+					"index" : 3,
+					"name" : "Explosion"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -242.476089,
+				"y" : -104.333267
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/spider/run.png",
+				"sliceIndex" : -1,
+				"animIndex" : 1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/spider/run_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/spider/run_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Run"
+				},
+				{
+					"index" : 1,
+					"name" : "Activated"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 129.333557,
+				"y" : -98.619072
+			},
+			"name" : "Explosion",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

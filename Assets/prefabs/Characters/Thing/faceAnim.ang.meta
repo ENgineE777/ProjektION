@@ -1,0 +1,283 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 84.999916,
+		"y" : 13.428571
+	},
+	"camZoom" : 1.400000,
+	"def_node" : 0,
+	"Count" : 6,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -276.856781,
+				"y" : 1.928581
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/idle.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/idle_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/idle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 4,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Run"
+				},
+				{
+					"index" : 2,
+					"name" : "Jump"
+				},
+				{
+					"index" : 4,
+					"name" : "Fall"
+				},
+				{
+					"index" : 5,
+					"name" : "JumpAttack"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 437.967834,
+				"y" : 1.611111
+			},
+			"name" : "Run",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/run.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/run_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/run_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 3,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				},
+				{
+					"index" : 2,
+					"name" : "Jump"
+				},
+				{
+					"index" : 5,
+					"name" : "JumpAttack"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 75.428474,
+				"y" : 85.214264
+			},
+			"name" : "Jump",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				},
+				{
+					"index" : 4,
+					"name" : "Fall"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -259.285736,
+				"y" : -115.500000
+			},
+			"name" : "Killed",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -38.285751,
+				"y" : 215.499939
+			},
+			"name" : "Fall",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/fall.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/fall_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/fall_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 4,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				},
+				{
+					"index" : 1,
+					"name" : "Run"
+				},
+				{
+					"index" : 2,
+					"name" : "Jump"
+				},
+				{
+					"index" : 5,
+					"name" : "JumpAttack"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 0.714224,
+				"y" : -107.285721
+			},
+			"name" : "JumpAttack",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash_attack.png",
+				"sliceIndex" : 0,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash_attack_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/thing/sprites/dash_attack_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 4,
+					"name" : "Fall"
+				},
+				{
+					"index" : 0,
+					"name" : "Idle"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

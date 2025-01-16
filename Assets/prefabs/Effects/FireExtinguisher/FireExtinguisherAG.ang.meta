@@ -1,0 +1,67 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 164.000000,
+		"y" : 7.000000
+	},
+	"camZoom" : 1.000000,
+	"def_node" : 0,
+	"Count" : 2,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -69.000000,
+				"y" : 29.000000
+			},
+			"name" : "Fly",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/effects/fireextinguisher/fireextinguisher.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Hit"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 225.000000,
+				"y" : 31.000000
+			},
+			"name" : "Hit",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 1,
+			"Event" : [
+				{
+					"frameNumber" : 0,
+					"name" : "",
+					"param" : ""
+				}
+			]
+		}
+	]
+}

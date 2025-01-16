@@ -1,0 +1,63 @@
+﻿{
+	"camPos" :
+	{
+		"x" : -18.000000,
+		"y" : -98.000000
+	},
+	"camZoom" : 1.000000,
+	"def_node" : 1,
+	"Count" : 2,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -92.000000,
+				"y" : -8.000000
+			},
+			"name" : "Anim",
+			"object_uid" : 0,
+			"def_link" : 0,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/turret/gun_electro.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 145.000000,
+				"y" : -12.000000
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

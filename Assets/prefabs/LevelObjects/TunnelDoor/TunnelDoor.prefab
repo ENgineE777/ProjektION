@@ -1,0 +1,165 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 270080,
+			"type" : "TunnelDoorEntity",
+			"name" : "TunnelDoor",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 36.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 0.000000,
+				"a" : 0.500000
+			},
+			"physGroup" : 2,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 135911,
+					"type" : "AnimGraph2D",
+					"name" : "tunneldoor",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/levelobjects/tunneldoor/tunneldoor.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 322987,
+							"type" : "PointLight2D",
+							"name" : "PointLight2D18",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.321004,
+									"y" : -18.297897,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 191.250000,
+									"y" : 191.250000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.952941,
+								"g" : 1.000000,
+								"b" : 0.411765,
+								"a" : 1.000000
+							},
+							"falloff" : 0.000000,
+							"intesity" : 1.500000,
+							"lineWidth" : 18.000000,
+							"viewAngle" : 50.000000,
+							"castShadow" : false
+						}
+					]
+				}
+			]
+		}
+	]
+}

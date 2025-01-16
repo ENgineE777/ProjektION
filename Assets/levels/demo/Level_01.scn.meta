@@ -1,0 +1,22 @@
+﻿{
+	"uid" : 4176,
+	"selected_entity" : 450232320,
+	"camera2DMode" : true,
+	"camera3DAngles" :
+	{
+		"x" : 0.000000,
+		"y" : -0.500000
+	},
+	"camera3DPos" :
+	{
+		"x" : 0.000000,
+		"y" : 6.000000,
+		"z" : 0.000000
+	},
+	"camera2DPos" :
+	{
+		"x" : -958.103882,
+		"y" : 156.672714
+	},
+	"camera2DZoom" : 1.120000
+}

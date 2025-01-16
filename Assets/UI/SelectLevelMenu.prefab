@@ -1,0 +1,657 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 439795,
+			"type" : "SelectLevelMenu",
+			"name" : "SelectLevel",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 640.000000,
+					"y" : 360.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"horzAlign" : 1,
+			"vertAlign" : 1,
+			"horzSize" : 0,
+			"vertSize" : 0,
+			"leftPadding.x" : 0.000000,
+			"leftPadding.y" : 0.000000,
+			"rightPadding.x" : 0.000000,
+			"rightPadding.y" : 0.000000,
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 83225,
+					"type" : "ImageWidget",
+					"name" : "Fade",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1024.000000,
+							"y" : 360.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 0.000000,
+						"g" : 0.000000,
+						"b" : 0.000000,
+						"a" : 0.768627
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 166166,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Logo",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -130.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 210.995697,
+							"y" : 19.756098,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 20,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_SelectLevel",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 2,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 265518,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -80.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 72.439888,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level1",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 0.913725,
+						"b" : 0.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 11468,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level2",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -50.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 81.584488,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level2",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 196865,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level3",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -20.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 81.236122,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level3",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 253099,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level4",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 10.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 82.316063,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level4",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 98432,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level5",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 40.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 81.584488,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level5",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 771209,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level6",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 70.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 81.671585,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level6",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 585876,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Level7",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 100.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 80.992264,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Level7",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1010147,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 140.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 56.552891,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Back",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				}
+			]
+		}
+	]
+}

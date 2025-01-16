@@ -1,0 +1,1241 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 836435968,
+			"type" : "ResultDemoScreen",
+			"name" : "ResultDemoScreen",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 640.000000,
+					"y" : 360.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"horzAlign" : 1,
+			"vertAlign" : 1,
+			"horzSize" : 0,
+			"vertSize" : 0,
+			"leftPadding.x" : 0.000000,
+			"leftPadding.y" : 0.000000,
+			"rightPadding.x" : 0.000000,
+			"rightPadding.y" : 0.000000,
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : -1955201024,
+					"type" : "ImageWidget",
+					"name" : "Background",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 640.000000,
+							"y" : 360.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "cutscenes/intro/background/background.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 2108162048,
+					"type" : "ImageWidget",
+					"name" : "Background1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 640.000000,
+							"y" : 360.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "cutscenes/intro/background/backgroundone.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 958529536,
+					"type" : "ImageWidget",
+					"name" : "Background2",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 640.000000,
+							"y" : 360.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "cutscenes/intro/background/clouds1.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1867710464,
+					"type" : "ImageWidget",
+					"name" : "Ship",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 140.000000,
+							"y" : -50.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 350.000000,
+							"y" : 184.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "cutscenes/intro/spaceship/battleship.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1793654784,
+					"type" : "ImageWidget",
+					"name" : "Fade",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1024.000000,
+							"y" : 360.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 0.000000,
+						"g" : 0.000000,
+						"b" : 0.000000,
+						"a" : 0.156863
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1030356992,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 20.000000,
+							"y" : 70.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 137.137222,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"linesGapMul" : 1.000000,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_ExitToMenu",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 0.913725,
+						"b" : 0.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1293156352,
+					"type" : "ContainerWidget",
+					"name" : "Kills",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -35.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 150.000000,
+							"y" : 11.408442,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 793968640,
+							"type" : "LabelWidget",
+							"name" : "Label_Kills",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 60.237919,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_KILLS",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1164115968,
+							"type" : "LabelWidget",
+							"name" : "Label_KillsValue",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 140.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 9.683139,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "0",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2131689472,
+					"type" : "ContainerWidget",
+					"name" : "Deaths",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -15.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 150.000000,
+							"y" : 11.408442,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 376963072,
+							"type" : "LabelWidget",
+							"name" : "Label_Deaths",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 54.875580,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_DEATHS",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 866910208,
+							"type" : "LabelWidget",
+							"name" : "Label_DeathsValue",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 140.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 9.683139,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "0",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -749404160,
+					"type" : "ContainerWidget",
+					"name" : "TotalTimer",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 5.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 150.000000,
+							"y" : 11.408442,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : -487194624,
+							"type" : "LabelWidget",
+							"name" : "Label_TotalTimer",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 98.746422,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_TOTALTIME",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -1230700544,
+							"type" : "LabelWidget",
+							"name" : "Label_TotalTimerValue",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 140.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 40.555340,
+									"y" : 7.487002,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 8,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "00:00",
+							"horzAlign" : 0,
+							"vertAlign" : 3,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1922826240,
+					"type" : "LabelWidget",
+					"name" : "Label_won",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -95.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 229.096176,
+							"y" : 9.982669,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"linesGapMul" : 1.000000,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_FinishDemo",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 2,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 0.403922,
+						"g" : 0.929412,
+						"b" : 0.882353,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1446641664,
+					"type" : "LabelWidget",
+					"name" : "Label_won1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -75.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 335.570343,
+							"y" : 9.982669,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"linesGapMul" : 1.000000,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_FinishDemo2",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 2,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 0.403922,
+						"g" : 0.929412,
+						"b" : 0.882353,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 518520832,
+					"type" : "ImageWidget",
+					"name" : "ToBeContinued",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 640.000000,
+							"y" : 360.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 0.000000,
+						"g" : 0.000000,
+						"b" : 0.000000,
+						"a" : 1.000000
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : -1632239616,
+							"type" : "LabelWidget",
+							"name" : "LabelWidget",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 401.280762,
+									"y" : 17.469671,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 18,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$To_be_continued",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

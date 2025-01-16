@@ -1,0 +1,129 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 5.833333,
+		"y" : -2.000000
+	},
+	"camZoom" : 1.900000,
+	"def_node" : 0,
+	"Count" : 3,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -248.333405,
+				"y" : 48.500004
+			},
+			"name" : "Inactive",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missleinactive.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missleactive_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -248.583405,
+				"y" : -54.083340
+			},
+			"name" : "Active",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missleactive.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missleactive_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/bubafoot/sprites/weapons/missle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 8.166666,
+				"y" : 3.666667
+			},
+			"name" : "Explosion",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/effects/explosion/explosion.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "cutscenes/intro/background/empty_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/effects/explosion/explosion.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

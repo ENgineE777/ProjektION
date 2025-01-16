@@ -1,0 +1,845 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 818287,
+			"type" : "Puppet",
+			"name" : "Puppet",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"moveMode" : 0,
+			"mode" : 0,
+			"stopAtPathPointsTime" : 0.500000,
+			"switchLookDirInterval" : -1.000000,
+			"explosion" :
+			{
+				"uid" : 0
+			},
+			"speedTransitionTime" : 0.300000,
+			"startMoveT" : 0.000000,
+			"respawnMaxTime" : 0.700000,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 749508,
+					"type" : "AnimGraph2D",
+					"name" : "anim",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 25.000000,
+							"y" : 49.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/intropuppet/puppet.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 627695,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 22.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 32.000000,
+							"y" : 44.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 8,
+					"affectOnParent" : true,
+					"height" : 12.000000,
+					"radius" : 16.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 558788,
+					"type" : "Node2D",
+					"name" : "body_parts",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 905283,
+							"type" : "PhysEntity2D",
+							"name" : "leg_right",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -5.745159,
+									"y" : 10.347649,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 21.638788,
+									"y" : 12.386902,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 2,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 583500,
+									"type" : "SpriteEntity",
+									"name" : "legs",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -90.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 11.000000,
+											"y" : 23.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_right.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_right_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_right_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 686843,
+							"type" : "PhysEntity2D",
+							"name" : "hand",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -10.728752,
+									"y" : 27.489389,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 20.700060,
+									"y" : 9.946179,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 2,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 646988,
+									"type" : "SpriteEntity",
+									"name" : "legs",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -90.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 9.000000,
+											"y" : 21.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/hand.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/hand_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/hand_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 156345,
+							"type" : "PhysEntity2D",
+							"name" : "leg_left",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 4.022449,
+									"y" : 9.371238,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 20.324553,
+									"y" : 10.509412,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 2,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 262761,
+									"type" : "SpriteEntity",
+									"name" : "legs",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -90.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 11.000000,
+											"y" : 21.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_left.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_left_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/leg_left_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 651487,
+							"type" : "PhysEntity2D",
+							"name" : "torso",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -1.818877,
+									"y" : 31.398911,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 27.992496,
+									"y" : 17.643806,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 2,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 779383,
+									"type" : "SpriteEntity",
+									"name" : "torso",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -90.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 17.000000,
+											"y" : 33.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/torso.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/torso_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/intropuppet/sprites/bodyparts/torso_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 274040,
+									"type" : "Joint2D",
+									"name" : "Joint_hand",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 3.671223,
+											"y" : 8.071754,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 140.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 30.000000,
+									"Target" :
+									{
+										"uid" : 686843
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 735283,
+									"type" : "Joint2D",
+									"name" : "leg_left",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -13.137868,
+											"y" : -3.915713,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 30.000000,
+									"Target" :
+									{
+										"uid" : 156345
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 27594,
+									"type" : "Joint2D",
+									"name" : "leg_right",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -12.694118,
+											"y" : 2.708242,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 30.000000,
+									"Target" :
+									{
+										"uid" : 905283
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

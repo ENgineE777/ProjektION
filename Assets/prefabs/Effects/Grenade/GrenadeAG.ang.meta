@@ -1,0 +1,109 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 164.000000,
+		"y" : 7.000000
+	},
+	"camZoom" : 2.000000,
+	"def_node" : 2,
+	"Count" : 3,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -69.000000,
+				"y" : 29.000000
+			},
+			"name" : "Fly",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/effects/grenade/greanade.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Hit"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 202.000000,
+				"y" : 25.000000
+			},
+			"name" : "Hit",
+			"object_uid" : 0,
+			"def_link" : 0,
+			"texture" :
+			{
+				"Path" : "prefabs/effects/explosion/explosion.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "cutscenes/intro/background/empty_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/effects/explosion/explosion.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 2,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 1,
+			"Event" : [
+				{
+					"frameNumber" : 0,
+					"name" : "",
+					"param" : ""
+				}
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 426.000000,
+				"y" : 22.000000
+			},
+			"name" : "Node",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

@@ -1,0 +1,2813 @@
+{
+    "item" : [
+        {
+            "key" : "Menu_Start",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "New game"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Nouveau jeu"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Nuovo gioco"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Neues Spiel"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nuevo juego"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Nowa gra"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Новая игра"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Continue",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Continue"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Commencer"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Inizio"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Anfangen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Empezar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Początek"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Продолжить"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_SelectLevel",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Select Level"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Choisir le niveau"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Seleziona livello"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level auswählen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Seleccionar nivel"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wybierz poziom"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Выбор уровня"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Options",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Options"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Options"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Opzioni"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Optionen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Opciones"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Opcje"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Опции"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Credits",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Credits"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Crédits"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Crediti"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Kredite"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Créditos"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Autorów"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Авторы"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Exit",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Exit"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Sortie"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Uscita"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Ausgang"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Salida"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wyjście"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Выход"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Back",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Back"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Retour"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Indietro"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Zurück"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Salida"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wstecz"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Назад"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level1",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 1"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 1"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 1"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 1"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 1"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 1"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 1"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 2"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 2"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 2"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 2"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 2"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 2"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 2"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level3",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 3"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 3"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 3"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 3"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 3"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 3"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 3"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level4",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 4"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 4"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 4"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 4"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 4"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 4"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 4"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level5",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 5"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 5"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 5"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 5"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 5"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 5"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 5"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level6",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 6"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 6"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 6"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 6"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 6"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 6"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 6"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Level7",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level 7"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Niveau 7"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Livello 7"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level 7"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Nivel 7"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Poziom 7"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уровень 7"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Language",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Language"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Langue"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Lingua"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Sprache"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Idioma"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Język"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Język"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Язык"
+                }
+            ]
+        },        
+        {
+            "key" : "Menu_Controls",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Controls"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Contrôles"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Controlli"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Kontrollen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Mandos"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Kontroli"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Управление"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Music",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Music"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Musique"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Musica"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Musik"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Música"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Muzyka"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Музыка"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_PauseMenu",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Pause Menu"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Pause Menu"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Menu di pausa"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Menü pausieren"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Menú de pausa"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Menu pauzy"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пауза"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Resume",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Resume"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Reprendre"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Riprendere"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Fortsetzen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Reanudar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wznowić"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Продолжить"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_ExitToMenu",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Main Menu"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Menu principal"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Menu principale"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Hauptmenü"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Menú principal"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Menu główne"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Главное меню"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_MusicOptions",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Music Options"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Options de musique"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Opzioni musicali"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Musik-Optionen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Opciones de música"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Opcje muzyczne"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Звуковые опции"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_MusicVolume",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Music Volume"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Volume de musique"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Volume musicale"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Musik-Lautstärke"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Volumen de música"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Głośność muzyki"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Громкость музыки"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_SoundVolume",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sound Volume"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Volume sonore"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Volume del suono"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Lautstärke"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Volumen del sonido"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Głośność dźwięku"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Громкость звуков"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_ControlsMenu",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Controls Menu"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Menu Contrôles"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Menu Controlli"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Kontrollmenü"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Menú Controles"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Menu sterowania"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Меню управления"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Movement",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Movement"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Mouvement"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Movimento"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Bewegung"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Movimiento"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Ruch"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Движение"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Aim",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Aim"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Viser"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Scopo"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Ziel"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Apuntar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Celować"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Целиться"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Dash",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Dash"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Tiret"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Lineetta"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Strich"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Acelerar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Szarpać"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Рывок"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_GrabThrow",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Grab/Throw"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Saisir/Lancer"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Afferrare/Lancia"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Greifen/Werfen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Agarrar/Lanzar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Chwyć/rzuć"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Взять/Кинуть"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Entertunnel",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Enter tunnel"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Entrer dans le tunnel"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Entra nel tunnel"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Betrete den Tunnel"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Entrar en túnel"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wejdź do tunelu"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Войти в туннель"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Deatach",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Detach"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Détacher"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Staccare"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Abtrennen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Separar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Odłączyć"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Отцепиться"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_LookAround",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Look around"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Regarde autour"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Guardati intorno"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Sich umsehen"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Mirar alrededor"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Rozejrzyj się"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Оглянуться"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_ProjectLead",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Project Lead"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Chef de projet"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Capo progetto"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Projektleitung"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Líder de Proyecto"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Kierownik Projektu"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Руководитель проекта"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_GameDesign",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Game Design"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Design de jeu"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Design del gioco"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Spieldesign"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Diseño de juegos"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Projektowanie Gier"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Геймдизайн"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Programming",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Programming"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Programmation"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Programmazione"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Programmieren"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Programación"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Programowanie"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Программирование"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_LevelDesign",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Level Design"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Design de niveaux"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Design dei livelli"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Level-Design"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Diseño de niveles"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Projektowanie poziomów"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Дизайн уровней"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Graphics",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Graphics"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Graphiques"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Grafica"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Graphik"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Grafismo"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Grafika"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Графика"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_SoundDesign",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sound Design"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Conception sonore"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Design del suono"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Sounddesign"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Diseño de sonido"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Projektowanie dźwięku"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Дизайн звука"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_AddSoundDesign",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Additional Sound Design"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Conception sonore"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Design del suono"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Sounddesign"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Diseño de sonido"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Projektowanie dźwięku"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Дополнительный дизайн звука"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_SpecialThanks",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Special Thanks"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Mentions spéciales"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Menzioni speciali"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Besonderer Dank"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Agradecimientos especiales"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Szczególne podziękowani"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Благодарность"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_Licensing",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Licensing"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Autorisation"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Licenze"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Lizenzierung"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Licencia"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Licencjonowanie"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Лицензии"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_FMOD",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Made using FMOD Studio"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Fabriqué en utilisant FMOD Studio"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Realizzato con FMOD Studio"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Erstellt mit FMOD Studio"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "iHecho con FMOD Studio"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Wykonane przy użyciu FMOD Studio"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Сделано с использованием FMOD Studio"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_FMOD2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "by Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "par Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "da Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "von Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "por Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "przez Firelight Technologies Pty Ltd."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "от Firelight Technologies Pty Ltd."
+                }
+            ]
+        },
+        {
+            "key" : "Menu_FONT2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "with Reserved Font Name LanaPixel."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "with Reserved Font Name LanaPixel."
+                }
+            ]
+        },
+        {
+            "key" : "Menu_LanngiageName",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "English"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Français"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Italiana"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Deutsch"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Español"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Polski"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Русский"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_WIN",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "You have made it!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Vous avez réussi!"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Hai ce l'abbiamo fatta!"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Du hast es geschafft!"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "¡Lo has logrado!"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Zrobiliśmy to!"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Ты сделал это!"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_LOSE",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "You are Dead!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Tu es mort!"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Sei morto!"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Estas muerto"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Estas muerto"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Nie żyjesz!"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Ты мертвец!"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_FinishDemo",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Thanks for playing the Demo!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Merci d'avoir joué à la démo !"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Thanks for playing the Demo!"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Danke, dass du die Demo gespielt hast!"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Thanks for playing the Demo!"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Dziękujemy za grę w wersję demonstracyjną!"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Спасибо за игру в демо!"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_FinishDemo2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Try to improve your time."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Essayez d'améliorer votre temps."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Cerca di migliorare il tuo tempo."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Versuchen Sie, Ihre Zeit zu verbessern."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Essayez d'améliorer votre temps."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Spróbuj poprawić swój czas."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Попробуйте улучшить свое время."
+                }
+            ]
+        },
+        {
+            "key" : "Menu_TIME",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Time"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Temps"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Tempo"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Zeit"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Tiempo"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Czas"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Время"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_TOTALTIME",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Total Time"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Temps"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Tempo"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Zeit"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Tiempo"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Czas"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Общее Время"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_TOTALSCORE",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Score"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Очки"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_DEATHS",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Deaths"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Décès"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Morto"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Fallecidos"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Fallecidos"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Zgony"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Смерти"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_KILLS",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Kills"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Убийств"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_RESTART",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Press R to restart"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Appuyez sur R pour redémarrer"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Premi R per riavviare"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Drücken Sie R, um neu zu starten"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Presiona R para reiniciar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Naciśnij R, aby ponownie uruchomić"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Нажмите R для рестарта"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_RESTART_GAMEPAD",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Press A to restart"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Appuyez sur A pour redémarrer"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Premi A per riavviare"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Drücken Sie A, um neu zu starten"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Presiona A para reiniciar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Naciśnij A, aby ponownie uruchomić"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Нажмите A для рестарта"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_CONTINUE",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Press C to continue"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Presiona C para continuar"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Presiona C para continuar"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Drücken Sie C, um fortzufahren"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Presiona C para continuar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Naciśnij C, aby kontynuować"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Нажмите C для продолжения"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_CONTINUE_GAMEPAD",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Press A to continue"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Presiona A para continuar"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Presiona A para continuar"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Drücken Sie A, um fortzufahren"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Presiona A para continuar"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Naciśnij A, aby kontynuować"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Нажмите A для продолжения"
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog1",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Sir, our radars\\nhave detected\\nthe escape pod."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Капитан, наши радары\\nзасекли спасательную\\nкапсулу."
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Just destroy it!!!"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Уничтожить!!!"
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog3",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "But Sir, we have\\ndetected signature of\\nthe prophets."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Но капитан, наши\\nрадары засекли\\nсигналы пророков."
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog4",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "What are you waiting\\nfor? Take it on\\nboard. Now!!!"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Чего ты ждешь?\\nКапсулу на борт.\\nНемедленно!!!"
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog5",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Welcome on the\\nboard of \"Orin\"."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Welcome on the\\nboard of \"Exile\"."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Welcome on the\\nboard of \"Exile\"."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Welcome on the\\nboard of \"Exile\"."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Welcome on the\\nboard of \"Exile\"."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Welcome on the\\nboard of \"Exile\"."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Добро пожаловать\\nна борту \"Орин\"."
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog6",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "It was a rough flight,\\nI guess.\\nHow do you feel?"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пологаю, полет был\\nне из легких.\\nКак самочувствие?"
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog7",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna\\nexplode."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna explode."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna explode."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna explode."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna explode."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "I feel like I am\\nalready dead.\\nMy head wanna explode."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Я чувствую себя\\nмертвецом. Голова\\nсейчас взорветься."
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog8",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Follow me.\\nI'll lead you to\\nthe medical bay."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Следуйте за\\nмной. Я отведу вас\\nв мед отсек."
+                }
+            ]
+        },
+        {
+            "key" : "Intro_Dialog9",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Take a rest.\\nI'll come back to\\nyou soon."
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Отдохните.\\nЯ вернусь позже.\\nСкоро увидимся."
+                }
+            ]
+        },
+        {
+            "key" : "Menu_SelectDifficulty",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Select Difficulty"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Выбор сложности"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_DifficultyEasy",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Easy"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Легкий"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_DifficultyNormal",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Normal"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Средний"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_DifficultyHard",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Hard"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Высокий"
+                }
+            ]
+        },
+        {
+            "key" : "Menu_DifficultyInsane",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Хардкор"
+                }
+            ]
+        },
+        {
+            "key" : "WTF_Dialog1",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sir, we have Red cell\\nsituation caused by\\nProject ION."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Капитан, мы в\\nситуции Красная\\nклетка, вызванная\\nпроектом ION."
+                }
+            ]
+        },
+        {
+            "key" : "WTF_Dialog2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "WTF???\\nHow this happened???"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пиз*a!!!\\nКак это произошло???"
+                }
+            ]
+        },
+        {
+            "key" : "WTF_Dialog3",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Seems Project ION\\nIs not detectable by\\nour scaners."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Похоже, что проект\\nИон невидим для\\nнаших сканеров."
+                }
+            ]
+        },
+        {
+            "key" : "WTF_Dialog4",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Fu****!!!\\nDeal with it or\\nI'll skin you alive!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пиз*ц!!!\\nРазберись с этим\\nили я натяну твой\\nглаз на жо*y!!!"
+                }
+            ]
+        },
+        {
+            "key" : "SendJoe_Dialog1",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sir, command center\\ndemands the status\\nof the situation."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Капитан, комнадный\\nцентр требует\\nразьяснения\\nситуации!!!"
+                }
+            ]
+        },
+        {
+            "key" : "SendJoe_Dialog2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Fu*k!!!\\nIgnore them for now\\nand where is Joe?"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Черт!!!\\nИгнорируй их пока.\\nКстати, где Джо?"
+                }
+            ]
+        },
+        {
+            "key" : "SendJoe_Dialog3",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Joe is resting in his\\ncabin. Probably\\nhe is sleeping."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Джо у себя в каюте.\\nСкорее всего спит.\\n"
+                }
+            ]
+        },
+        {
+            "key" : "SendJoe_Dialog4",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Kick him and\\nimmediately send him\\nto deal with your\\nmess!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пни его и пускай\\nзайметься\\nразруливанием твоих\\nкосяков!!!"
+                }
+            ]
+        },
+        {
+            "key" : "Outro_Dialog1",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Sir, we have\\ncaptured it!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Капитан, мы\\nпоймали существо!!!"
+                }
+            ]
+        },
+        {
+            "key" : "Outro_Dialog2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Finally yoy get\\nme reason not\\nto kill you."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Наконец ты да мне\\nпричину не убивать\\nтебя."
+                }
+            ]
+        },
+        {
+            "key" : "Outro_Dialog2",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Finally yoy gave\\nme the reason not\\nto kill you."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Наконец ты дал мне\\nпричину не убивать\\nтебя."
+                }
+            ]
+        },
+        {
+            "key" : "Outro_Dialog3",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "But we found\\nsignature of prophets\\nmercenary in docking\\nbay."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Правда, мы засекли\\nпроникновение\\nагента пророка в\\nстыковочном отсеке"
+                }
+            ]
+        },
+        {
+            "key" : "Outro_Dialog4",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "Fu***k. Today is\\nnot my day. Send\\ncode Zet to\\ncommand center. Now!!!"
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Пиз..а. Сегодня\\nне мой день. Пошли\\nкод Зет в командный\\nцентр. Немедленно!!!"
+                }
+            ]
+        },
+        {
+            "key" : "To_be_continued",
+            "localized" : [
+                {
+                    "locale" : "en",
+                    "text" : "To be continued..."
+                },
+                {
+                    "locale" : "fr",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "it",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "de",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "es",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "pl",
+                    "text" : "Insane"
+                },
+                {
+                    "locale" : "ru",
+                    "text" : "Продолжение следует..."
+                }
+            ]
+        }
+    ]
+}

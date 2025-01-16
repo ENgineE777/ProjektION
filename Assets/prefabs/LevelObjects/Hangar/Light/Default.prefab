@@ -1,0 +1,400 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 1348075520,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 64.000000,
+					"y" : 64.000000,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 1952907264,
+					"type" : "DefferedLight",
+					"name" : "DefferedLight1",
+					"layerName" : "Lights",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"metallic" : 0.080000,
+					"brightness" : -0.110000,
+					"contrast" : -0.100000,
+					"saturate" : 0.800000,
+					"useFilter" : false,
+					"globalLights" :
+					{
+						"count" : 5,
+						"Elem" : [
+							{
+								"ambientColor" :
+								{
+									"r" : 0.907173,
+									"g" : 0.956681,
+									"b" : 1.000000,
+									"a" : 1.000000
+								},
+								"ambientIntensity" : 1.000000
+							},
+							{
+								"ambientColor" :
+								{
+									"r" : 0.000000,
+									"g" : 0.430380,
+									"b" : 1.000000,
+									"a" : 1.000000
+								},
+								"ambientIntensity" : 0.250000
+							},
+							{
+								"ambientColor" :
+								{
+									"r" : 1.000000,
+									"g" : 1.000000,
+									"b" : 1.000000,
+									"a" : 1.000000
+								},
+								"ambientIntensity" : 1.000000
+							},
+							{
+								"ambientColor" :
+								{
+									"r" : 1.000000,
+									"g" : 1.000000,
+									"b" : 1.000000,
+									"a" : 1.000000
+								},
+								"ambientIntensity" : 1.000000
+							},
+							{
+								"ambientColor" :
+								{
+									"r" : 0.435550,
+									"g" : 0.318129,
+									"b" : 0.704641,
+									"a" : 1.000000
+								},
+								"ambientIntensity" : 1.000000
+							}
+						]
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1435303936,
+					"type" : "DirectionLight2D",
+					"name" : "DirectionLight2D3",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 882.511169,
+							"y" : 162.511765,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -135.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.000000,
+							"y" : 100.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 0.505882,
+						"b" : 0.203922,
+						"a" : 1.000000
+					},
+					"intesity" : 0.750000,
+					"lightGroup" : 18
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1472987136,
+					"type" : "DirectionLight2D",
+					"name" : "DirectionLight2D4",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 809.754395,
+							"y" : 161.822662,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 45.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.000000,
+							"y" : 100.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.000000,
+						"g" : 0.533333,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"intesity" : 0.750000,
+					"lightGroup" : 18
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1326186496,
+					"type" : "DirectionLight2D",
+					"name" : "DirectionLight2D4",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 666.115173,
+							"y" : 161.459259,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 45.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.000000,
+							"y" : 100.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.616034,
+						"g" : 0.820816,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"intesity" : 1.000000,
+					"lightGroup" : 1
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1954217984,
+					"type" : "DirectionLight2D",
+					"name" : "DirectionLight2D5",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 666.115173,
+							"y" : 161.459259,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 45.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.000000,
+							"y" : 100.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.174224,
+						"g" : 0.605637,
+						"b" : 0.983122,
+						"a" : 1.000000
+					},
+					"intesity" : 0.800000,
+					"lightGroup" : 4
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1372913664,
+					"type" : "DirectionLight2D",
+					"name" : "DirectionLight2D6",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 666.115173,
+							"y" : 161.459259,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -135.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.000000,
+							"y" : 100.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.805907,
+						"g" : 0.763509,
+						"b" : 0.136018,
+						"a" : 1.000000
+					},
+					"intesity" : 0.800000,
+					"lightGroup" : 4
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,213 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 516146,
+			"type" : "LaserDrone",
+			"name" : "LaserDrone",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"laserRays" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"directionAngle" : 0.000000,
+						"maxLength" : -1.000000,
+						"shouldActivate" : false
+					}
+				]
+			},
+			"distanceToInstantKill" : 18.000000,
+			"moveSpeed" : 140.000000,
+			"stopAtPathPointsTime" : 0.000000,
+			"shouldStopOnlyAtEndPoints" : false,
+			"loopPath" : false,
+			"rotationSpeed" : 0.000000,
+			"overrideMoveSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideStopAtPathPointsTime" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideShouldStopOnlyAtEndPoints" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideRotationSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideAimSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"overrideReturnSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 28101,
+					"type" : "SpriteEntity",
+					"name" : "body",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -90.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 20.000000,
+							"y" : 20.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_laser1.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_laser1_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/characters/drone/sprites/drone_laser1_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 648160,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 2.000000,
+							"y" : 3.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 8,
+					"affectOnParent" : true,
+					"height" : 1.000000,
+					"radius" : 1.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				}
+			]
+		}
+	]
+}

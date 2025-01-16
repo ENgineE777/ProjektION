@@ -1,0 +1,203 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 963259,
+			"type" : "Mercenary",
+			"name" : "Mercenary",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 763067,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -0.294984,
+							"y" : -10.914876,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 24.000000,
+							"y" : 48.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 18,
+					"affectOnParent" : true,
+					"height" : 24.000000,
+					"radius" : 12.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 340918,
+					"type" : "AnimGraph2D",
+					"name" : "anim",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -35.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.060000,
+							"y" : 1.060000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 48.000000,
+							"y" : 51.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/mercenary/mercenary.ang"
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 909338,
+					"type" : "AnimGraph2D",
+					"name" : "torso",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 1.230028,
+							"y" : -4.599653,
+							"z" : -0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.060000,
+							"y" : 1.060000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 48.000000,
+							"y" : 51.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.520000,
+							"y" : 0.470000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/mercenary/mercenarytorso.ang"
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				}
+			]
+		}
+	]
+}

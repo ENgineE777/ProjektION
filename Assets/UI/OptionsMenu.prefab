@@ -1,0 +1,602 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 563762,
+			"type" : "OptionsMenu",
+			"name" : "OptionsMenu",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 640.000000,
+					"y" : 360.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"horzAlign" : 1,
+			"vertAlign" : 1,
+			"horzSize" : 0,
+			"vertSize" : 0,
+			"leftPadding.x" : 0.000000,
+			"leftPadding.y" : 0.000000,
+			"rightPadding.x" : 0.000000,
+			"rightPadding.y" : 0.000000,
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 552325,
+					"type" : "ImageWidget",
+					"name" : "Fade1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1024.000000,
+							"y" : 360.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 0.000000,
+						"g" : 0.000000,
+						"b" : 0.000000,
+						"a" : 0.768627
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 939879,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Title",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -70.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 100.531807,
+							"y" : 15.914634,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 16,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Options",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 2,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 323240,
+					"type" : "LabelWidget",
+					"name" : "Lbl_language",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 10.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 220.000000,
+							"y" : 12.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Language",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 0.913725,
+						"b" : 0.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 241725,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Music_Value",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 80.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 76.952744,
+									"y" : 9.878049,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 10,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_LanngiageName",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 2,
+							"vertSize" : 2,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 656524,
+									"type" : "LabelWidget",
+									"name" : "Lbl_Music_Left",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -5.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 8.630628,
+											"y" : 9.878049,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 1.000000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"fontHeight" : 10,
+									"fontName" : "UI/conthrax-sb.otf",
+									"text" : "<",
+									"horzAlign" : 0,
+									"vertAlign" : 1,
+									"horzSize" : 2,
+									"vertSize" : 2,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 81008,
+									"type" : "LabelWidget",
+									"name" : "Lbl_Music_right",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -12.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 8.630628,
+											"y" : 9.878049,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.000000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"fontHeight" : 10,
+									"fontName" : "UI/conthrax-sb.otf",
+									"text" : ">",
+									"horzAlign" : 2,
+									"vertAlign" : 1,
+									"horzSize" : 2,
+									"vertSize" : 2,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1005458,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Music",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 40.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 72.890495,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Music",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 35831,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Controls",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 70.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 113.499352,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Controls",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 990505,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 130.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 56.968662,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 10,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Back",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				}
+			]
+		}
+	]
+}

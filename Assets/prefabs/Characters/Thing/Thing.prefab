@@ -1,0 +1,1680 @@
+﻿{
+	"uid" : 53984,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 24235,
+			"type" : "Thing",
+			"name" : "Thing",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"innerCornerBeginTransitionDist" : 7.000000,
+			"outerCornerBeginTransitionDist" : 4.500000,
+			"cornerTransitionByKeyDist" : 18.000000,
+			"cornerLongPress" : 0.150000,
+			"detachSurfaceLongPress" : 0.075000,
+			"moveAlongSurfaceTransitionDist" : 9.000000,
+			"moveSpeed" : 197.000000,
+			"wallMoveSpeed" : 141.000000,
+			"airMoveSpeed" : 100.000000,
+			"tunnelActivationDist" : 6.750000,
+			"tunnelBufferingTime" : 0.250000,
+			"throwBufferingTime" : 0.250000,
+			"dashCoyoteTime" : 0.150000,
+			"dashBufferingTime" : 0.200000,
+			"dashThresholdDegress" : 90.000000,
+			"dashMaxDistance" : 152.000000,
+			"dashStartSpeed" : 700.000000,
+			"dashEndSpeed" : 200.000000,
+			"dashSuccessColor" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"dashFailColor" :
+			{
+				"r" : 0.852321,
+				"g" : 0.923356,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"footstepsInterval" : 0.100000,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 327677,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 90.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 14.000000,
+							"y" : 19.625000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 4,
+					"affectOnParent" : true,
+					"height" : 5.625000,
+					"radius" : 7.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1040355,
+					"type" : "PhysEntity2D",
+					"name" : "hitBox",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -2.223182,
+							"y" : -0.311299,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 19.052383,
+							"y" : 7.896060,
+							"z" : 20.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 0.000000,
+						"a" : 0.250000
+					},
+					"bodyShape" : 2,
+					"bodyType" : 3,
+					"physGroup" : 32,
+					"visibleDuringPlay" : false,
+					"affectOnParent" : false
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 196343,
+					"type" : "Node2D",
+					"name" : "body_parts",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 3.351005,
+							"y" : 0.335100,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 196338,
+							"type" : "PhysEntity2D",
+							"name" : "head",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -4.152751,
+									"y" : 1.136506,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -33.578899
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 12.805696,
+									"y" : 7.098976,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 16,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 324320,
+									"type" : "SpriteEntity",
+									"name" : "head",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.893599,
+											"y" : -1.117002,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 29.168407
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 17.000000,
+											"y" : 9.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/head.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/head_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/head_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 1,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 17.000000,
+										"y" : 9.000000
+									},
+									"usePortlas" : false
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 775153,
+							"type" : "PhysEntity2D",
+							"name" : "tail",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -40.537006,
+									"y" : -2.805387,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 21.665297,
+									"y" : 5.588982,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 16,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 980731,
+									"type" : "SpriteEntity",
+									"name" : "tail",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -0.000003,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 29.000000,
+											"y" : 9.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/tail.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/tail_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/tail_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 1,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 29.000000,
+										"y" : 9.000000
+									},
+									"usePortlas" : false
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 981999,
+							"type" : "PhysEntity2D",
+							"name" : "LegsBack",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -23.811377,
+									"y" : -3.986170,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 47.943069
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 11.193134,
+									"y" : 7.686091,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 16,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 258812,
+									"type" : "SpriteEntity",
+									"name" : "legsback",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 1.479761,
+											"y" : 0.000001,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -50.347919
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 13.000000,
+											"y" : 12.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsback.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsback_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsback_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 1,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 13.000000,
+										"y" : 12.000000
+									},
+									"usePortlas" : false
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 56298,
+							"type" : "PhysEntity2D",
+							"name" : "LegsFront",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -5.623581,
+									"y" : -4.104513,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -38.807060
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 9.193871,
+									"y" : 5.172927,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 16,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 188391,
+									"type" : "SpriteEntity",
+									"name" : "legsfront",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -0.369973,
+											"y" : -1.109824,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 37.793373
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 9.000000,
+											"y" : 10.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsfront.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsfront_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/legsfront_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 1,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 9.000000,
+										"y" : 10.000000
+									},
+									"usePortlas" : false
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1039340,
+							"type" : "PhysEntity2D",
+							"name" : "Body",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -15.157973,
+									"y" : -1.470476,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 12.720609,
+									"y" : 4.807084,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 16,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 843490,
+									"type" : "SpriteEntity",
+									"name" : "body",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -0.494839,
+											"y" : 0.865976,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 21.000000,
+											"y" : 6.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/body.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/body_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/thing/bodyparts/body_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 1,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 21.000000,
+										"y" : 6.000000
+									},
+									"usePortlas" : false
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 644854,
+									"type" : "Joint2D",
+									"name" : "head",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 4.894611,
+											"y" : 1.853076,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 15.000000,
+									"Target" :
+									{
+										"uid" : 196338
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 457716,
+									"type" : "Joint2D",
+									"name" : "legs_front",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 3.846453,
+											"y" : 0.016462,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -45.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 35.000000,
+									"Target" :
+									{
+										"uid" : 56298
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 119802,
+									"type" : "Joint2D",
+									"name" : "legs_back",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -3.810847,
+											"y" : -0.136018,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -145.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 35.000000,
+									"Target" :
+									{
+										"uid" : 981999
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 260084,
+									"type" : "Joint2D",
+									"name" : "tail",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -5.542801,
+											"y" : 0.853672,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 50.000000,
+									"Target" :
+									{
+										"uid" : 775153
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 644089,
+					"type" : "AnimGraph2D",
+					"name" : "anim",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : -0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 16.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.750000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/thing/faceanim.ang"
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 4,
+					"useRimLight" : true
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 906222,
+					"type" : "SpriteEntity",
+					"name" : "dash_trail",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 23.000000,
+							"y" : 5.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 1.000000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/dash/trail.png",
+						"sliceIndex" : 1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 9,
+					"noZ" : true,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 23.000000,
+						"y" : 5.000000
+					},
+					"usePortlas" : false,
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 129790,
+							"type" : "SpriteEntity",
+							"name" : "dash_trail_end",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -23.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 58.000000,
+									"y" : 5.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 1.000000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/effects/dash/trail.png",
+								"sliceIndex" : 0,
+								"animIndex" : -1
+							},
+							"drawLevel" : 9,
+							"noZ" : true,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 58.000000,
+								"y" : 5.000000
+							},
+							"usePortlas" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 119543,
+					"type" : "SpriteEntity",
+					"name" : "dash_trail_attack",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 2.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 8.000000,
+							"y" : 5.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 1.000000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/dash/trail_attack.png",
+						"sliceIndex" : 1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 9,
+					"noZ" : true,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 8.000000,
+						"y" : 5.000000
+					},
+					"usePortlas" : false,
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 776168,
+							"type" : "SpriteEntity",
+							"name" : "dash_trail_end",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -8.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 58.000000,
+									"y" : 5.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 1.000000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/effects/dash/trail_attack.png",
+								"sliceIndex" : 0,
+								"animIndex" : -1
+							},
+							"drawLevel" : 9,
+							"noZ" : true,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 58.000000,
+								"y" : 5.000000
+							},
+							"usePortlas" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 972794,
+					"type" : "SpriteEntity",
+					"name" : "dash_slash",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 103.000000,
+							"y" : 11.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.655000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/dash/splash.png",
+						"sliceIndex" : 0,
+						"animIndex" : -1
+					},
+					"drawLevel" : 9,
+					"noZ" : true,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 103.000000,
+						"y" : 11.000000
+					},
+					"usePortlas" : false
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 390894,
+					"type" : "SpriteEntity",
+					"name" : "dash_slash2",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 103.000000,
+							"y" : 11.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.655000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/dash/splash.png",
+						"sliceIndex" : 1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 9,
+					"noZ" : true,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 103.000000,
+						"y" : 11.000000
+					},
+					"usePortlas" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2130 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 984517,
+			"type" : "Soldier",
+			"name" : "Soldier",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"moveMode" : 1,
+			"stopAtPathPointsTime" : 0.500000,
+			"switchLookDirInterval" : -1.000000,
+			"speedTransitionTime" : 0.300000,
+			"startMoveT" : 0.000000,
+			"maxHealth" : 1.000000,
+			"hitReactionDuration" : 0.500000,
+			"keepPlayerVisibleMaxTime" : 0.250000,
+			"alwaysViewRadius" : 36.000000,
+			"reactionToPlayerFromBehindMaxTime" : 0.100000,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 217394,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 26.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 24.000000,
+							"y" : 50.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 8,
+					"affectOnParent" : true,
+					"height" : 26.000000,
+					"radius" : 12.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 585179,
+					"type" : "Node2D",
+					"name" : "body_parts",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 89562,
+							"type" : "PhysEntity2D",
+							"name" : "head",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.692541,
+									"y" : 47.643562,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 7.891780,
+									"y" : 7.891780,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 1,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 906075,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 12.000000,
+											"y" : 15.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/head.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/head_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/head_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.517647,
+										"g" : 0.811765,
+										"b" : 0.768627,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 929297,
+							"type" : "PhysEntity2D",
+							"name" : "HandRight",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -5.273564,
+									"y" : 36.439747,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -45.727280
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 14.903769,
+									"y" : 10.530186,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 880097,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.134525,
+											"y" : 1.378518,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 44.324970
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 25.000000,
+											"y" : 23.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handright.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handright_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handright_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 969912,
+							"type" : "PhysEntity2D",
+							"name" : "HandLeft",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 7.967495,
+									"y" : 36.293919,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -49.748920
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 16.751411,
+									"y" : 8.456861,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 344118,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -0.049540,
+											"y" : 2.052509,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 50.096901
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 24.000000,
+											"y" : 24.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handleft.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handleft_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/handright_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 208048,
+							"type" : "PhysEntity2D",
+							"name" : "Gun",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 5.659182,
+									"y" : 35.015972,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 27.707813,
+									"y" : 8.318789,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 851014,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 51.000000,
+											"y" : 13.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/gun.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/gun_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/gun_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 581472,
+							"type" : "PhysEntity2D",
+							"name" : "Torso",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -1.416157,
+									"y" : 33.850342,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.032005
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 20.424059,
+									"y" : 11.624434,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 221291,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -89.539017
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 21.000000,
+											"y" : 37.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/torso.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/torso_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/torso_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 35134,
+									"type" : "Joint2D",
+									"name" : "JointHead",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 10.140368,
+											"y" : -1.433472,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 89562
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 841731,
+									"type" : "Joint2D",
+									"name" : "JointHandRight",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 7.995105,
+											"y" : 5.588406,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 135.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 929297
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 523242,
+									"type" : "Joint2D",
+									"name" : "JointHandLeft",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 7.845348,
+											"y" : -6.017135,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -135.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 969912
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 993641,
+									"type" : "Joint2D",
+									"name" : "JointLegLeft",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -6.767449,
+											"y" : -3.000115,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 961644
+									}
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 710540,
+									"type" : "Joint2D",
+									"name" : "JointLegRight",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -8.338955,
+											"y" : 5.167681,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 128149
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 128149,
+							"type" : "PhysEntity2D",
+							"name" : "LegRight",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -4.890033,
+									"y" : 20.483238,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.032005
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 12.503407,
+									"y" : 7.242069,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 840274,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -89.539017
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 11.000000,
+											"y" : 21.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legright.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legright_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legright_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 3833,
+									"type" : "Joint2D",
+									"name" : "JointFoot",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -4.584458,
+											"y" : 0.862239,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 347286
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 347286,
+							"type" : "PhysEntity2D",
+							"name" : "FootRight",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -6.752169,
+									"y" : 9.450583,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.032005
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 14.223009,
+									"y" : 7.242069,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 50150,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -0.716557,
+											"y" : -0.286157,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -89.539017
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 12.000000,
+											"y" : 27.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footright.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footright_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footright_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 961644,
+							"type" : "PhysEntity2D",
+							"name" : "LegLeft",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 2.413815,
+									"y" : 19.960257,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.032005
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 14.234471,
+									"y" : 6.949435,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 285794,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -89.539017
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 11.000000,
+											"y" : 23.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legleft.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legleft_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/legleft_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								},
+								{
+									"prefabInstance" : false,
+									"uid" : 964432,
+									"type" : "Joint2D",
+									"name" : "JointFoot",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : -5.588369,
+											"y" : -0.856558,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : 180.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"coneLimit" : 25.000000,
+									"Target" :
+									{
+										"uid" : 458011
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 458011,
+							"type" : "PhysEntity2D",
+							"name" : "FootLeft",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 5.136119,
+									"y" : 7.781537,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.032005
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 14.234471,
+									"y" : 6.949435,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 32,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 51069,
+									"type" : "SpriteEntity",
+									"name" : "sprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -89.539017
+										},
+										"scale" :
+										{
+											"x" : 0.562500,
+											"y" : 0.562500,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 17.000000,
+											"y" : 28.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footleft.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footleft_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/soldiershield/bodyparts/footleft_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 0,
+									"noZ" : false,
+									"color" :
+									{
+										"r" : 0.705882,
+										"g" : 0.874510,
+										"b" : 0.850980,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 838246,
+					"type" : "AnimGraph2D",
+					"name" : "anim",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 1.000000,
+							"z" : 0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 32.000000,
+							"y" : 36.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/soldiershield/soldierlegs.ang"
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 0.117716,
+						"g" : 0.734177,
+						"b" : 0.648157,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 850380,
+					"type" : "AnimGraph2D",
+					"name" : "torse",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 41.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 15.000000,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/soldiershield/soldiertorso.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 0.117647,
+						"g" : 0.733333,
+						"b" : 0.647059,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1002766,
+					"type" : "AnimGraph2D",
+					"name" : "arms",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -2.000000,
+							"y" : 36.000000,
+							"z" : -0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 32.000000,
+							"y" : 14.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.300000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/characters/soldiershield/soldierarms.ang"
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 0.117647,
+						"g" : 0.733333,
+						"b" : 0.647059,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 346463,
+							"type" : "PointLight2D",
+							"name" : "flash",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 22.152702,
+									"y" : -0.695862,
+									"z" : 0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 120.000000,
+									"y" : 120.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.987449,
+								"g" : 1.000000,
+								"b" : 0.008439,
+								"a" : 1.000000
+							},
+							"falloff" : 0.000000,
+							"intesity" : 1.000000,
+							"lineWidth" : 0.000000,
+							"viewAngle" : 181.000000,
+							"castShadow" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 937218,
+							"type" : "Node2D",
+							"name" : "shoot",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 22.182190,
+									"y" : -0.514281,
+									"z" : -0.000012
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 772920,
+							"type" : "SpriteEntity",
+							"name" : "light_beam2",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 21.913269,
+									"y" : -0.173506,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 0.309000,
+									"y" : 0.098000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 512.000000,
+									"y" : 512.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/effects/light/light_beam.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 10,
+							"noZ" : true,
+							"color" :
+							{
+								"r" : 0.937255,
+								"g" : 0.960784,
+								"b" : 0.776471,
+								"a" : 0.686275
+							},
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 993166,
+							"type" : "SpriteEntity",
+							"name" : "muzzle",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 22.512266,
+									"y" : -0.772044,
+									"z" : 0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 32.000000,
+									"y" : 9.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/effects/shooteffect/muzzle.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 9,
+							"noZ" : true,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 475436,
+							"type" : "Shield",
+							"name" : "shield",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 26.077620,
+									"y" : -0.513545,
+									"z" : 0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 8.000000,
+									"y" : 30.000000,
+									"z" : 20.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 733604,
+									"type" : "SpriteEntity",
+									"name" : "shieldSprite",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 16.000000,
+											"y" : 60.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/soldiershield/shield/shield.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 9,
+									"noZ" : true,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000
+								}
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 522514,
+							"type" : "prefabs/effects/shooteffect/shells.prefab",
+							"name" : "shells.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 100.000000,
+									"y" : 100.000000,
+									"z" : 100.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

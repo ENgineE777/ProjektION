@@ -1,0 +1,162 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 1036094,
+			"type" : "VFXEmitterInstantiable",
+			"name" : "VFXEmitterInstantiable",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"drawLevel" : 10,
+			"maxInstancesCount" : 128,
+			"emitters" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"textures" :
+						{
+							"count" : 2,
+							"Elem" : [
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/particles/028.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.100000,
+										"y" : 0.100000
+									},
+									"weight" : 1
+								},
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/particles/030.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.050000,
+										"y" : 0.050000
+									},
+									"weight" : 1
+								}
+							]
+						},
+						"color" :
+						{
+							"r" : 0.130306,
+							"g" : 0.329114,
+							"b" : 0.087486,
+							"a" : 1.000000
+						},
+						"velocity" :
+						{
+							"x" : 64.000000,
+							"y" : 128.000000
+						},
+						"omega" :
+						{
+							"x" : -200.000000,
+							"y" : 200.000000
+						},
+						"sector" :
+						{
+							"x" : -40.000000,
+							"y" : 40.000000
+						},
+						"distance" :
+						{
+							"x" : 20.000000,
+							"y" : 50.000000
+						},
+						"fadeOut" :
+						{
+							"x" : 0.700000,
+							"y" : 0.900000
+						},
+						"fadeIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scaleIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scaleOut" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"particlesCount" :
+						{
+							"x" : 8.000000,
+							"y" : 16.000000
+						},
+						"radius" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounce" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounceDeviation" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"emitsFreq" : 1.000000,
+						"timeLife" : 0.500000,
+						"gravity" : 300.000000,
+						"affectByPlayerDist" : 0.000000,
+						"affectByPlayerFactor" : 0.000000
+					}
+				]
+			}
+		}
+	]
+}

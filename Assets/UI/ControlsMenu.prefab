@@ -1,0 +1,2196 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 301095,
+			"type" : "ControlsMenu",
+			"name" : "ControlsMenu",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 640.000000,
+					"y" : 360.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"horzAlign" : 1,
+			"vertAlign" : 1,
+			"horzSize" : 0,
+			"vertSize" : 0,
+			"leftPadding.x" : 0.000000,
+			"leftPadding.y" : 0.000000,
+			"rightPadding.x" : 0.000000,
+			"rightPadding.y" : 0.000000,
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 1.000000,
+				"a" : 1.000000
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 531226,
+					"type" : "ImageWidget",
+					"name" : "Fade1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1024.000000,
+							"y" : 360.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"imageColor" :
+					{
+						"r" : 0.000000,
+						"g" : 0.000000,
+						"b" : 0.000000,
+						"a" : 0.768627
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 114209,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Title",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : -140.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 265.189728,
+							"y" : 19.793814,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 20,
+					"linesGapMul" : 1.000000,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_ControlsMenu",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 2,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 280661,
+					"type" : "ContainerWidget",
+					"name" : "MouseKeyboard",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 5.000000,
+							"y" : 3.602872,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 0,
+					"vertAlign" : 3,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 686526,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Movement",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 103.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Movement",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 849461,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 108.000000,
+											"y" : 23.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/wasd.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 966744,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Aim",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 133.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Aim",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 480822,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 39.000000,
+											"y" : 39.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/mouse.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 31680,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Dash",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 163.602859,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Dash",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 607324,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 29.000000,
+											"y" : 49.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/lmb.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 100903,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Throw",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 193.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_GrabThrow",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 452562,
+									"type" : "ImageWidget",
+									"name" : "Grab/Throw",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 29.000000,
+											"y" : 49.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/rmb.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 485954,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Tunnel",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 223.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Entertunnel",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 319756,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 58.000000,
+											"y" : 25.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/space.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 778908,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Deatach",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 253.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Deatach",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 596806,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 58.000000,
+											"y" : 25.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/shift.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 105275,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Look _around",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 283.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_LookAround",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 580300,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 133.000000,
+											"y" : 41.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/control.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 876453,
+					"type" : "ContainerWidget",
+					"name" : "Gamepad",
+					"layerName" : "",
+					"visible" : false,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 5.000000,
+							"y" : 3.602872,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"horzAlign" : 0,
+					"vertAlign" : 3,
+					"horzSize" : 0,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 314940,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Movement",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 103.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Movement",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 30952,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 37.000000,
+											"y" : 37.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/lstickmove.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 565283,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Aim",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 133.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Aim",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 417491,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 37.000000,
+											"y" : 37.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/rstickaim.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 697995,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Dash",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 163.602859,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Dash",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 713455,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 32.000000,
+											"y" : 38.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/rt.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 624083,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Throw",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 193.602875,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_GrabThrow",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 185492,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 33.000000,
+											"y" : 40.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/lt.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 882568,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Tunnel",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 223.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Entertunnel",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 980304,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 37.000000,
+											"y" : 25.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/rb.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 419456,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Deatach",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 253.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_Deatach",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 630673,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 42.000000,
+											"y" : 39.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/rstickd.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 620756,
+							"type" : "LabelWidget",
+							"name" : "Lbl_Look _around",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 315.000000,
+									"y" : 283.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 280.000000,
+									"y" : 14.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"fontHeight" : 13,
+							"linesGapMul" : 1.000000,
+							"fontName" : "UI/conthrax-sb.otf",
+							"text" : "$Menu_LookAround",
+							"horzAlign" : 1,
+							"vertAlign" : 1,
+							"horzSize" : 0,
+							"vertSize" : 0,
+							"leftPadding.x" : 0.000000,
+							"leftPadding.y" : 0.000000,
+							"rightPadding.x" : 0.000000,
+							"rightPadding.y" : 0.000000,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 627980,
+									"type" : "ImageWidget",
+									"name" : "ImageWidget1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 110.000000,
+											"y" : 0.000000,
+											"z" : 0.000000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 105.000000,
+											"y" : 35.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "ui/controlsmenu/lb.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"horzAlign" : 1,
+									"vertAlign" : 1,
+									"horzSize" : 0,
+									"vertSize" : 0,
+									"leftPadding.x" : 0.000000,
+									"leftPadding.y" : 0.000000,
+									"rightPadding.x" : 0.000000,
+									"rightPadding.y" : 0.000000,
+									"imageColor" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 101632,
+					"type" : "LabelWidget",
+					"name" : "Lbl_Back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 150.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 58.227455,
+							"y" : 20.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"fontHeight" : 13,
+					"linesGapMul" : 1.000000,
+					"fontName" : "UI/conthrax-sb.otf",
+					"text" : "$Menu_Back",
+					"horzAlign" : 1,
+					"vertAlign" : 1,
+					"horzSize" : 2,
+					"vertSize" : 0,
+					"leftPadding.x" : 0.000000,
+					"leftPadding.y" : 0.000000,
+					"rightPadding.x" : 0.000000,
+					"rightPadding.y" : 0.000000,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 0.913725,
+						"b" : 0.000000,
+						"a" : 1.000000
+					}
+				}
+			]
+		}
+	]
+}

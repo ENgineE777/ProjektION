@@ -1,0 +1,301 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : -945225728,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 32.000000,
+					"y" : 24.000000,
+					"z" : 1.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 1.000000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : -1190658048,
+					"type" : "SpriteEntity",
+					"name" : "Sprite",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 16.000000,
+							"y" : 4.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/lampsmall/lampsmall.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelprops/hangar/lampsmall/lampsmall_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelprops/hangar/lampsmall/lampsmall_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 0.262745,
+						"g" : 0.917647,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 16.000000,
+						"y" : 4.000000
+					},
+					"usePortlas" : false
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1914634240,
+					"type" : "SpriteDustEntity",
+					"name" : "SpriteDustEntity3",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 20.000000,
+							"z" : -0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 0.330000,
+							"y" : 0.330000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 324.000000,
+							"y" : 503.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/lampsmall/lampglow.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 0.627451
+					}
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 346030080,
+					"type" : "PointLight2D",
+					"name" : "PointLight2D23",
+					"layerName" : "Lights",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 270.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 240.000000,
+							"y" : 240.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.262745,
+						"g" : 0.917647,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"falloff" : 0.400000,
+					"intesity" : 0.500000,
+					"lineWidth" : 2.000000,
+					"viewAngle" : 110.000000,
+					"castShadow" : false,
+					"lightGroup" : 2
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1273954304,
+					"type" : "PointLight2D",
+					"name" : "PointLight2D24",
+					"layerName" : "Lights",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 270.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 240.000000,
+							"y" : 240.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 0.262745,
+						"g" : 0.917647,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"falloff" : 0.950000,
+					"intesity" : 0.700000,
+					"lineWidth" : 2.000000,
+					"viewAngle" : 110.000000,
+					"castShadow" : false,
+					"lightGroup" : 4
+				}
+			]
+		}
+	]
+}

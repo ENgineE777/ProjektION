@@ -1,0 +1,139 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : -659357696,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 12.018291,
+					"y" : 20.085352,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 39.963421,
+					"y" : 23.829302,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 1.000000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : -1478950912,
+					"type" : "SpriteEntity",
+					"name" : "Sprite",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 40.000000,
+							"y" : 24.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/containersix/containersix.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelprops/hangar/containersix/containersix_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelprops/hangar/containersix/containersix_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 0.025316,
+						"g" : 1.000000,
+						"b" : 0.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 0.800000,
+					"lightGroup" : 2,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 40.000000,
+						"y" : 24.000000
+					},
+					"usePortlas" : false
+				}
+			]
+		}
+	]
+}

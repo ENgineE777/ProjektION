@@ -1,0 +1,218 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 1238564864,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 72.000000,
+					"y" : 72.000000,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 1.000000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : -738787328,
+					"type" : "SpriteEntity",
+					"name" : "Sprite",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 72.000000,
+							"y" : 72.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelprops/hangar/doormedbayopened/doormedbayopened.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelprops/hangar/doormedbayopened/doormedbayopened_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelprops/hangar/doormedbayopened/doormedbayopened_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 0.069220,
+						"g" : 0.683544,
+						"b" : 0.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 2,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 72.000000,
+						"y" : 72.000000
+					},
+					"usePortlas" : false
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1039597568,
+					"type" : "SpriteEntity",
+					"name" : "lampglow1",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -0.098337,
+							"y" : 62.453426,
+							"z" : -0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 0.330000,
+							"y" : 0.330000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 192.000000,
+							"y" : 192.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/effects/glow/lampglow.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 7,
+					"noZ" : false,
+					"lighten" : true,
+					"color" :
+					{
+						"r" : 0.000000,
+						"g" : 1.000000,
+						"b" : 0.025316,
+						"a" : 0.784314
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 192.000000,
+						"y" : 192.000000
+					},
+					"usePortlas" : false
+				}
+			]
+		}
+	]
+}

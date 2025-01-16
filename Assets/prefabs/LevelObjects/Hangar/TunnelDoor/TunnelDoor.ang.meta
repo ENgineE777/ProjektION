@@ -1,0 +1,219 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 0.000000,
+		"y" : 0.000000
+	},
+	"camZoom" : 0.900000,
+	"def_node" : 0,
+	"Count" : 5,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -275.388885,
+				"y" : 58.888889
+			},
+			"name" : "Unlocked",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.png",
+				"sliceIndex" : 1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Open"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 26.722221,
+				"y" : 105.222229
+			},
+			"name" : "Open",
+			"object_uid" : 0,
+			"def_link" : 0,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 3,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 25.611111,
+				"y" : -24.888889
+			},
+			"name" : "Close",
+			"object_uid" : 0,
+			"def_link" : 0,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.png",
+				"sliceIndex" : -1,
+				"animIndex" : 1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 249.722229,
+				"y" : 56.000000
+			},
+			"name" : "Opened",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.png",
+				"sliceIndex" : 4,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 2,
+					"name" : "Close"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -276.000000,
+				"y" : 192.000000
+			},
+			"name" : "Locked",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.png",
+				"sliceIndex" : 0,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

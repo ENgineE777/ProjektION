@@ -1,0 +1,464 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 492607,
+			"type" : "VFXEmitterInstantiable",
+			"name" : "VFXEmitterInstantiable",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.002479
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"drawLevel" : 10,
+			"noZ" : true,
+			"isLooped" : true,
+			"maxInstancesCount" : 128,
+			"emitters" :
+			{
+				"count" : 3,
+				"Elem" : [
+					{
+						"enabled" : true,
+						"matchEntityRotation" : false,
+						"matchVelocityRotation" : false,
+						"useParticlePrg" : true,
+						"textures" :
+						{
+							"count" : 1,
+							"Elem" : [
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/particles/016.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.140000,
+										"y" : 0.140000
+									},
+									"offset" :
+									{
+										"x" : 0.500000,
+										"y" : 0.500000
+									},
+									"weight" : 1
+								}
+							]
+						},
+						"color" :
+						{
+							"r" : 0.654008,
+							"g" : 0.115830,
+							"b" : 0.055191,
+							"a" : 1.000000
+						},
+						"velocity" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"omega" :
+						{
+							"x" : -100.000000,
+							"y" : 100.000000
+						},
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"distance" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeOut" :
+						{
+							"x" : 0.700000,
+							"y" : 1.000000
+						},
+						"scaleIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.150000
+						},
+						"scaleOut" :
+						{
+							"x" : 0.300000,
+							"y" : 2.000000
+						},
+						"scale" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000
+						},
+						"particlesCount" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000
+						},
+						"radius" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnY" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"angle" :
+						{
+							"x" : 0.000000,
+							"y" : 360.000000
+						},
+						"bounce" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounceDeviation" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceY" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"emitsFreq" : 64.000000,
+						"timeLife" : 0.150000,
+						"gravity" : 0.000000,
+						"affectByPlayerDist" : -1.000000,
+						"affectByPlayerFactor" : 0.000000,
+						"affectByEmitterVelocity" : 0.000000,
+						"noisePersistence" : 0.500000,
+						"noiseOctaves" : 0
+					},
+					{
+						"enabled" : true,
+						"matchEntityRotation" : false,
+						"matchVelocityRotation" : true,
+						"useParticlePrg" : true,
+						"textures" :
+						{
+							"count" : 1,
+							"Elem" : [
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/particles/001.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.050000,
+										"y" : 0.010000
+									},
+									"offset" :
+									{
+										"x" : 0.500000,
+										"y" : 0.500000
+									},
+									"weight" : 1
+								}
+							]
+						},
+						"color" :
+						{
+							"r" : 0.966245,
+							"g" : 0.171233,
+							"b" : 0.171233,
+							"a" : 1.000000
+						},
+						"velocity" :
+						{
+							"x" : 100.000000,
+							"y" : 200.000000
+						},
+						"omega" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sector" :
+						{
+							"x" : -30.000000,
+							"y" : 30.000000
+						},
+						"distance" :
+						{
+							"x" : 30.000000,
+							"y" : 40.000000
+						},
+						"fadeIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeOut" :
+						{
+							"x" : 0.700000,
+							"y" : 0.900000
+						},
+						"scaleIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scaleOut" :
+						{
+							"x" : 0.500000,
+							"y" : 0.900000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000
+						},
+						"particlesCount" :
+						{
+							"x" : 20.000000,
+							"y" : 30.000000
+						},
+						"radius" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnY" :
+						{
+							"x" : -2.000000,
+							"y" : 2.000000
+						},
+						"angle" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounce" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounceDeviation" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceX" :
+						{
+							"x" : -10.000000,
+							"y" : 10.000000
+						},
+						"turbulenceY" :
+						{
+							"x" : -10.000000,
+							"y" : 10.000000
+						},
+						"emitsFreq" : 8.000000,
+						"timeLife" : 0.150000,
+						"gravity" : 1000.000000,
+						"affectByPlayerDist" : -1.000000,
+						"affectByPlayerFactor" : 0.000000,
+						"affectByEmitterVelocity" : 10.000000,
+						"noisePersistence" : 0.500000,
+						"noiseOctaves" : 1
+					},
+					{
+						"enabled" : true,
+						"matchEntityRotation" : false,
+						"matchVelocityRotation" : false,
+						"useParticlePrg" : true,
+						"textures" :
+						{
+							"count" : 1,
+							"Elem" : [
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/particles/016.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.200000,
+										"y" : 0.200000
+									},
+									"offset" :
+									{
+										"x" : 0.500000,
+										"y" : 0.500000
+									},
+									"weight" : 1
+								}
+							]
+						},
+						"color" :
+						{
+							"r" : 0.924051,
+							"g" : 0.421086,
+							"b" : 0.421086,
+							"a" : 1.000000
+						},
+						"velocity" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"omega" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"distance" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeOut" :
+						{
+							"x" : 0.500000,
+							"y" : 0.900000
+						},
+						"scaleIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scaleOut" :
+						{
+							"x" : 0.000000,
+							"y" : 0.300000
+						},
+						"scale" :
+						{
+							"x" : 0.600000,
+							"y" : 1.000000
+						},
+						"particlesCount" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000
+						},
+						"radius" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnX" :
+						{
+							"x" : -1.000000,
+							"y" : 1.000000
+						},
+						"spawnY" :
+						{
+							"x" : -1.000000,
+							"y" : 1.000000
+						},
+						"angle" :
+						{
+							"x" : 0.000000,
+							"y" : 360.000000
+						},
+						"bounce" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounceDeviation" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceY" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"emitsFreq" : 64.000000,
+						"timeLife" : 0.150000,
+						"gravity" : 0.000000,
+						"affectByPlayerDist" : -1.000000,
+						"affectByPlayerFactor" : 0.000000,
+						"affectByEmitterVelocity" : 0.000000,
+						"noisePersistence" : 0.500000,
+						"noiseOctaves" : 0
+					}
+				]
+			}
+		}
+	]
+}

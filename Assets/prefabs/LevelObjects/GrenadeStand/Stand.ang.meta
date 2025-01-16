@@ -1,0 +1,93 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 0.000000,
+		"y" : 0.000000
+	},
+	"camZoom" : 1.000000,
+	"def_node" : 0,
+	"Count" : 2,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -303.000000,
+				"y" : 51.500000
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand.png",
+				"sliceIndex" : 0,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Broken"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 17.000000,
+				"y" : 55.500000
+			},
+			"name" : "Broken",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand.png",
+				"sliceIndex" : 1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/levelobjects/grenadestand/stand_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

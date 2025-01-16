@@ -1,0 +1,252 @@
+﻿{
+	"camPos" :
+	{
+		"x" : -1.428571,
+		"y" : -6.466171
+	},
+	"camZoom" : 1.400000,
+	"def_node" : 0,
+	"Count" : 6,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -22.157915,
+				"y" : 48.635353
+			},
+			"name" : "Torse_0",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_0.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_0_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_0_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -24.285730,
+				"y" : 134.962372
+			},
+			"name" : "Torse_45",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_45.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_45_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_45_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -21.428547,
+				"y" : -36.466175
+			},
+			"name" : "Torse_315",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_315.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_315_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_315_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -194.849609,
+				"y" : 140.676666
+			},
+			"name" : "Torse_90",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_90.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_90_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/torso_90_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 171.428619,
+				"y" : 114.248131
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/idle.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/idle_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/idle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 5,
+					"name" : "Walk"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 175.000076,
+				"y" : -7.894753
+			},
+			"name" : "Walk",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/walk.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/walk_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldier/torso/walk_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 4,
+					"name" : "Idle"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

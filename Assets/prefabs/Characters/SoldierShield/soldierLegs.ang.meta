@@ -1,0 +1,121 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 19.999998,
+		"y" : -47.368423
+	},
+	"camZoom" : 1.900000,
+	"def_node" : 0,
+	"Count" : 3,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -278.285706,
+				"y" : 74.500000
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/idle.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/idle_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/idle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Walk"
+				},
+				{
+					"index" : 2,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 158.526321,
+				"y" : 90.500000
+			},
+			"name" : "Walk",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/walk.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/walk_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/soldiershield/legs/walk_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -64.571426,
+				"y" : -113.500000
+			},
+			"name" : "Killed",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

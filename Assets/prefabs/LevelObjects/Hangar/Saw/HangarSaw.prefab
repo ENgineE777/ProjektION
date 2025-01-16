@@ -1,0 +1,279 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 1058603008,
+			"type" : "DynamicSaw",
+			"name" : "DynamicSaw",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"overrideMoveSpeed" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"moveSpeed" : 100.000000,
+			"overrideStopAtPathPointsTime" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"stopAtPathPointsTime" : 0.500000,
+			"overrideShouldStopOnlyAtEndPoints" :
+			{
+				"value" : 0.000000,
+				"enabled" : false
+			},
+			"shouldStopOnlyAtEndPoints" : true,
+			"loopPath" : false,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 1369112576,
+					"type" : "InstantPlayerKiller",
+					"name" : "trigger",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 20.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 0.000000,
+						"a" : 0.250000
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 504365056,
+							"type" : "SpriteEntity",
+							"name" : "rotor",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : -0.100000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/saw.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/saw_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/saw_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 2,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1423245312,
+							"type" : "SpriteEntity",
+							"name" : "back",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/back.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/back_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/saw/back_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 0.992157,
+								"g" : 1.000000,
+								"b" : 0.262745,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.500000,
+							"lightGroup" : 2,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000
+						}
+					]
+				}
+			]
+		}
+	]
+}

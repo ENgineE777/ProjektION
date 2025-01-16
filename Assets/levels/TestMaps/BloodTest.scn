@@ -1,0 +1,503 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : true,
+			"uid" : 904554,
+			"type" : "prefabs/characters/soldier/soldier.prefab",
+			"name" : "Soldier.prefab",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"moveMode" : 1,
+			"stopAtPathPointsTime" : 0.500000,
+			"switchLookDirInterval" : -1.000000,
+			"childs" : [
+
+			]
+		},
+		{
+			"prefabInstance" : true,
+			"uid" : 656936,
+			"type" : "prefabs/effects/blood/bloodspray.prefab",
+			"name" : "BloodSpray.prefab",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.478727,
+					"y" : 24.893620,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"surfacePuddle" : "",
+			"smallPuddle" : "prefabs/effects/blood/smallpuddle.prefab",
+			"addPuddleProbability" : 0.100000,
+			"addSmallPuddleProbability" : 0.250000,
+			"emitters" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.141176,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 24.000000,
+							"y" : 24.000000
+						},
+						"velocity" :
+						{
+							"x" : 210.000000,
+							"y" : 400.000000
+						},
+						"sector" :
+						{
+							"x" : -20.000000,
+							"y" : 20.000000
+						},
+						"distance" :
+						{
+							"x" : 30.000000,
+							"y" : 400.000000
+						},
+						"thickness" :
+						{
+							"x" : 0.050000,
+							"y" : 0.100000
+						},
+						"maxLen" :
+						{
+							"x" : 0.200000,
+							"y" : 0.300000
+						},
+						"fadeLen" :
+						{
+							"x" : 0.800000,
+							"y" : 0.900000
+						},
+						"fadeAlpha" :
+						{
+							"x" : 0.900000,
+							"y" : 0.950000
+						},
+						"radius" : 20.000000,
+						"particlesCount" : 32,
+						"emitsFreq" : 1.000000,
+						"isLoop" : false
+					}
+				]
+			}
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 490236,
+			"type" : "BloodPuddle",
+			"name" : "BloodPuddle",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : -0.242150,
+					"y" : 31.782734,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 128.000000,
+					"y" : 128.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"noiseBlend" : 0.700000,
+			"noiseScale" : 4.000000,
+			"puddleSeed" : 1.000000,
+			"puddleScale" : 100.000000,
+			"puddleAlpha" : 0.700000,
+			"needFrame" : false,
+			"puddles" :
+			{
+				"count" : 2,
+				"Elem" : [
+					{
+						"isVisible" : true,
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.000000,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"offs" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sphRadius" :
+						{
+							"x" : 2.000000,
+							"y" : 5.000000
+						},
+						"count" : 16,
+						"puddleRadius" : 16.000000,
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 180.000000
+						},
+						"k" : 4.000000
+					},
+					{
+						"isVisible" : true,
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.000000,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"offs" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sphRadius" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000
+						},
+						"count" : 100,
+						"puddleRadius" : 50.000000,
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 360.000000
+						},
+						"k" : 0.000000
+					}
+				]
+			}
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 945916,
+			"type" : "BloodPuddle",
+			"name" : "BloodPuddle1",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 161.286011,
+					"y" : -60.820404,
+					"z" : -0.000286
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : -0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 128.000000,
+					"y" : 128.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"noiseBlend" : 0.700000,
+			"noiseScale" : 4.000000,
+			"puddleSeed" : 1.000000,
+			"puddleScale" : 100.000000,
+			"puddleAlpha" : 0.700000,
+			"needFrame" : false,
+			"puddles" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"isVisible" : true,
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.000000,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"offs" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sphRadius" :
+						{
+							"x" : 2.000000,
+							"y" : 5.000000
+						},
+						"count" : 16,
+						"puddleRadius" : 16.000000,
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 180.000000
+						},
+						"k" : 4.000000
+					}
+				]
+			}
+		},
+		{
+			"prefabInstance" : false,
+			"uid" : 257012,
+			"type" : "BloodEmitter",
+			"name" : "BloodEmitter",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : -12.552094,
+					"y" : -51.080727,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : -0.000000,
+					"y" : 0.000000,
+					"z" : 45.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"surfacePuddle" : "",
+			"smallPuddle" : "",
+			"addPuddleProbability" : 0.250000,
+			"addSmallPuddleProbability" : 0.050000,
+			"emitters" :
+			{
+				"count" : 2,
+				"Elem" : [
+					{
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.141176,
+							"b" : 0.000000,
+							"a" : 0.705882
+						},
+						"size" :
+						{
+							"x" : 16.000000,
+							"y" : 16.000000
+						},
+						"velocity" :
+						{
+							"x" : 80.000000,
+							"y" : 400.000000
+						},
+						"sector" :
+						{
+							"x" : -10.000000,
+							"y" : 10.000000
+						},
+						"distance" :
+						{
+							"x" : 32.000000,
+							"y" : 200.000000
+						},
+						"thickness" :
+						{
+							"x" : 0.050000,
+							"y" : 0.050000
+						},
+						"maxLen" :
+						{
+							"x" : 0.200000,
+							"y" : 0.300000
+						},
+						"fadeLen" :
+						{
+							"x" : 0.600000,
+							"y" : 0.900000
+						},
+						"fadeAlpha" :
+						{
+							"x" : 0.700000,
+							"y" : 0.900000
+						},
+						"radius" : 0.000000,
+						"particlesCount" : 128,
+						"emitsFreq" : 8.000000,
+						"isLoop" : false
+					},
+					{
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.000000,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 16.000000,
+							"y" : 16.000000
+						},
+						"velocity" :
+						{
+							"x" : 80.000000,
+							"y" : 100.000000
+						},
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 360.000000
+						},
+						"distance" :
+						{
+							"x" : 4.000000,
+							"y" : 60.000000
+						},
+						"thickness" :
+						{
+							"x" : 0.050000,
+							"y" : 0.050000
+						},
+						"maxLen" :
+						{
+							"x" : 0.100000,
+							"y" : 0.200000
+						},
+						"fadeLen" :
+						{
+							"x" : 0.600000,
+							"y" : 0.900000
+						},
+						"fadeAlpha" :
+						{
+							"x" : 0.700000,
+							"y" : 0.900000
+						},
+						"radius" : 0.000000,
+						"particlesCount" : 32,
+						"emitsFreq" : 1.000000,
+						"isLoop" : false
+					}
+				]
+			}
+		}
+	]
+}

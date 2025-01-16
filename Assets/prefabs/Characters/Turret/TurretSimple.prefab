@@ -1,0 +1,936 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 516368,
+			"type" : "TurretSimple",
+			"name" : "Turret",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 64.000000,
+					"y" : 64.000000,
+					"z" : 0.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"killScore" : 250,
+			"leftAngleVaule" : 0.000000,
+			"clampEditorVisualization" : true,
+			"alwaysViewRadius" : 18.000000,
+			"keepPlayerVisibleMaxTime" : 0.250000,
+			"rotateSpeed" : 750.000000,
+			"agroTime" : 1.000000,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 1016864,
+					"type" : "SpriteEntity",
+					"name" : "Base",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 28.000000,
+							"y" : 22.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 1.000000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/characters/turret/base.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/characters/turret/base_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/characters/turret/base_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 4,
+					"useRimLight" : true,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 28.000000,
+						"y" : 22.000000
+					},
+					"usePortlas" : false,
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 925369,
+							"type" : "AnimGraph2D",
+							"name" : "electro",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : -0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 50.000000,
+									"y" : 50.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"anim" :
+							{
+								"Path" : "prefabs/characters/turret/base_electro.ang"
+							},
+							"drawLevel" : 7,
+							"noZ" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 115952,
+					"type" : "SpriteEntity",
+					"name" : "Gun",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 22.000000,
+							"z" : -0.002000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 48.000000,
+							"y" : 13.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.250000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/characters/turret/gun.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/characters/turret/gun_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/characters/turret/gun_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 2,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 0.822785,
+						"g" : 0.204828,
+						"b" : 0.204828,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.500000,
+					"lightGroup" : 4,
+					"useRimLight" : true,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 48.000000,
+						"y" : 13.000000
+					},
+					"usePortlas" : false,
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 432540,
+							"type" : "SpriteEntity",
+							"name" : "muzzle",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 35.279110,
+									"y" : 0.023728,
+									"z" : 0.001001
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.500000,
+									"y" : 1.500000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 32.000000,
+									"y" : 9.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/effects/shooteffect/muzzle.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/background/empty_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "prefabs/effects/shooteffect/muzzle.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 5,
+							"noZ" : true,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250980
+							},
+							"emmisiveIntencity" : 0.900000,
+							"lightGroup" : 16,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 32.000000,
+								"y" : 9.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 608781,
+							"type" : "PointLight2D",
+							"name" : "flash",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 35.713196,
+									"y" : -0.133919,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 150.000000,
+									"y" : 150.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.000000,
+							"intesity" : 1.000000,
+							"lineWidth" : 0.000000,
+							"viewAngle" : 181.000000,
+							"castShadow" : false,
+							"lightGroup" : 15
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -880738304,
+							"type" : "PointLight2D",
+							"name" : "seacrhLght",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 4.663459,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 500.000000,
+									"y" : 500.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 0.987342,
+								"b" : 0.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.400000,
+							"intesity" : 0.500000,
+							"lineWidth" : 0.000000,
+							"viewAngle" : 90.000000,
+							"castShadow" : false,
+							"lightGroup" : 4
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 784959,
+							"type" : "Node2D",
+							"name" : "shoot",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 35.498325,
+									"y" : 0.250099,
+									"z" : 0.001001
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 430861,
+							"type" : "Node2D",
+							"name" : "searchLight",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 3.582353,
+									"y" : 0.394104,
+									"z" : 0.001001
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 884786,
+							"type" : "AnimGraph2D",
+							"name" : "electro",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : -0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 50.000000,
+									"y" : 50.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.250000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"anim" :
+							{
+								"Path" : "prefabs/characters/turret/gun_electro.ang"
+							},
+							"drawLevel" : 7,
+							"noZ" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 945360,
+					"type" : "KinematicCapsule2D",
+					"name" : "controller",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.803494,
+							"y" : 16.936666,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 24.000000,
+							"y" : 32.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"physGroup" : 8,
+					"affectOnParent" : false,
+					"height" : 8.000000,
+					"radius" : 12.000000,
+					"slopeLimit" : 0.000000,
+					"stepOffset" : 0.000000
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 211818,
+					"type" : "Node2D",
+					"name" : "body_parts",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 14.937734,
+							"y" : 11.058684,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 795255,
+							"type" : "PhysEntity2D",
+							"name" : "GunCapsule",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -3.131458,
+									"y" : 12.024714,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 47.254295,
+									"y" : 14.927900,
+									"z" : 50.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 0.250000
+							},
+							"bodyShape" : 2,
+							"bodyType" : 1,
+							"physGroup" : 1,
+							"visibleDuringPlay" : false,
+							"affectOnParent" : false,
+							"childs" : [
+								{
+									"prefabInstance" : false,
+									"uid" : 186600,
+									"type" : "SpriteEntity",
+									"name" : "Gun1",
+									"layerName" : "",
+									"visible" : true,
+									"Transform" :
+									{
+										"position" :
+										{
+											"x" : 0.000000,
+											"y" : 0.000000,
+											"z" : -0.002000
+										},
+										"rotation" :
+										{
+											"x" : -0.000000,
+											"y" : 0.000000,
+											"z" : -0.000000
+										},
+										"scale" :
+										{
+											"x" : 1.000000,
+											"y" : 1.000000,
+											"z" : 1.000000
+										},
+										"size" :
+										{
+											"x" : 48.000000,
+											"y" : 13.000000,
+											"z" : 0.000000
+										},
+										"offset" :
+										{
+											"x" : 0.500000,
+											"y" : 0.500000,
+											"z" : 0.500000
+										}
+									},
+									"texture" :
+									{
+										"Path" : "prefabs/characters/turret/gun.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"normal" :
+									{
+										"Path" : "prefabs/characters/turret/gun_n.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"material" :
+									{
+										"Path" : "prefabs/characters/turret/gun_m.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"drawLevel" : 2,
+									"noZ" : false,
+									"lighten" : false,
+									"color" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisive" :
+									{
+										"r" : 1.000000,
+										"g" : 1.000000,
+										"b" : 1.000000,
+										"a" : 1.000000
+									},
+									"emmisiveIntencity" : 1.000000,
+									"lightGroup" : 4,
+									"useRimLight" : true,
+									"paralaxInEditor" : false,
+									"paralax.x" : 1.000000,
+									"paralax.y" : 1.000000,
+									"autoTileH" : false,
+									"autoTileV" : false,
+									"autoCalcTileZone" : true,
+									"zoneSize" :
+									{
+										"x" : 48.000000,
+										"y" : 13.000000
+									},
+									"usePortlas" : false
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -1887961088,
+					"type" : "PhysTriger2D",
+					"name" : "KillTrigger",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -0.571249,
+							"y" : 15.505327,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 23.864779,
+							"y" : 29.504482,
+							"z" : 20.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 0.000000,
+						"a" : 0.250000
+					},
+					"physGroup" : 1,
+					"visibleDuringPlay" : false
+				}
+			]
+		}
+	]
+}

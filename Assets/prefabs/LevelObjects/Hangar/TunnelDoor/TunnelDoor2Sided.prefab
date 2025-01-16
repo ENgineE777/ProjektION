@@ -1,0 +1,511 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 146524,
+			"type" : "TunnelDoorEntity",
+			"name" : "TunnelDoor",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 36.000000,
+					"y" : 36.000000,
+					"z" : 36.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 0.000000,
+				"a" : 0.500000
+			},
+			"lockedDoor" : false,
+			"oneWay" : false,
+			"targetEnmeies" :
+			{
+				"count" : 0,
+				"Elem" : [
+
+				]
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 803619,
+					"type" : "AnimGraph2D",
+					"name" : "tunneldoor",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/levelobjects/hangar/tunneldoor/tunneldoor.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.050000,
+					"lightGroup" : 1,
+					"useRimLight" : false,
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 343421,
+							"type" : "PointLight2D",
+							"name" : "PointLight2D18",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : -18.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 191.250000,
+									"y" : 191.250000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.431373,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.400000,
+							"intesity" : 0.600000,
+							"lineWidth" : 15.000000,
+							"viewAngle" : 45.000000,
+							"castShadow" : false,
+							"lightGroup" : 6
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1037868,
+							"type" : "PointLight2D",
+							"name" : "PointLight2D19",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 0.000000,
+									"y" : 18.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 191.250000,
+									"y" : 191.250000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.431373,
+								"g" : 1.000000,
+								"b" : 0.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.400000,
+							"intesity" : 0.600000,
+							"lineWidth" : 15.000000,
+							"viewAngle" : 45.000000,
+							"castShadow" : false,
+							"lightGroup" : 6
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 166723584,
+							"type" : "SpriteEntity",
+							"name" : "IntersectionRight1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 18.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 0.500000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 2.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 36.000000,
+								"y" : 2.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -292618240,
+							"type" : "SpriteEntity",
+							"name" : "IntersectionLeft1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -18.000000,
+									"y" : 0.000000,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 90.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 0.500000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 2.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "prefabs/levelobjects/hangar/tunneldoor/intersection_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 36.000000,
+								"y" : 2.000000
+							},
+							"usePortlas" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 769589248,
+					"type" : "SpriteEntity",
+					"name" : "back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.001000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 36.000000,
+							"y" : 36.000000,
+							"z" : 0.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"texture" :
+					{
+						"Path" : "prefabs/levelobjects/hangar/tunneldoor/back.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"normal" :
+					{
+						"Path" : "prefabs/levelobjects/hangar/tunneldoor/back_n.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"material" :
+					{
+						"Path" : "prefabs/levelobjects/hangar/tunneldoor/back_m.png",
+						"sliceIndex" : -1,
+						"animIndex" : -1
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"lighten" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisive" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					},
+					"emmisiveIntencity" : 1.000000,
+					"lightGroup" : 16,
+					"useRimLight" : false,
+					"paralaxInEditor" : false,
+					"paralax.x" : 1.000000,
+					"paralax.y" : 1.000000,
+					"autoTileH" : false,
+					"autoTileV" : false,
+					"autoCalcTileZone" : true,
+					"zoneSize" :
+					{
+						"x" : 36.000000,
+						"y" : 36.000000
+					},
+					"usePortlas" : false
+				}
+			]
+		}
+	]
+}

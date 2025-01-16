@@ -1,0 +1,116 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 987052,
+			"type" : "MovingInstantPlayerKiller",
+			"name" : "MovingInstantPlayerKiller",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 38.000000,
+					"y" : 18.000000,
+					"z" : 20.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.000000,
+					"z" : 0.500000
+				}
+			},
+			"color" :
+			{
+				"r" : 1.000000,
+				"g" : 1.000000,
+				"b" : 0.000000,
+				"a" : 0.350000
+			},
+			"physGroup" : 64,
+			"timeInactive" : 1.000000,
+			"preActivationTime" : 0.500000,
+			"moveSpeed" : 128.000000,
+			"overrideTimeInactive" : -1.000000,
+			"overridePreActivationTime" : -1.000000,
+			"overrideMoveSpeed" : -1.000000,
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 604789,
+					"type" : "AnimGraph2D",
+					"name" : "Spikes",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -18.000000,
+							"y" : 18.000000,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 0.562500,
+							"y" : 0.562000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 1.000000
+						},
+						"offset" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.500000
+						}
+					},
+					"anim" :
+					{
+						"Path" : "prefabs/levelobjects/spikes/spikes.ang"
+					},
+					"drawLevel" : 0,
+					"noZ" : false,
+					"color" :
+					{
+						"r" : 1.000000,
+						"g" : 1.000000,
+						"b" : 1.000000,
+						"a" : 1.000000
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+﻿{
+	"export_dir" : "C:/Users/engin/Desktop/Overkill",
+	"iconPath" : "Icon.png",
+	"iconSmallPath" : "Icon.png",
+	"projectName" : "Overkill",
+	"start_scene" : "FrontEnd",
+	"alignGrid" :
+	{
+		"x" : 36.000000,
+		"y" : 36.000000,
+		"z" : 8.000000
+	},
+	"useAlignGrid" : false,
+	"alignGridFlag" : 6,
+	"alignGridOffset" :
+	{
+		"x" : 18.000000,
+		"y" : 18.000000,
+		"z" : 8.000000
+	},
+	"useAlignGridOffset" : false,
+	"alignOffsetGridFlag" : 3,
+	"useFMODStudio" : true,
+	"pixelsPerUnit" : 50.000000,
+	"pixelsHeight" : 360.000000,
+	"hideCursor" : true,
+	"runningInFullscreen" : true,
+	"openedAssets" : [
+		{
+			"path" : "levels/frontend.scn"
+		}
+	],
+	"edited_asset" : "levels/frontend.scn",
+	"layers" : [
+		{
+			"name" : "Common",
+			"state" : 0
+		},
+		{
+			"name" : "Enemies",
+			"state" : 0
+		},
+		{
+			"name" : "LevelObjects",
+			"state" : 0
+		},
+		{
+			"name" : "UI",
+			"state" : 0
+		},
+		{
+			"name" : "Lights",
+			"state" : 0
+		}
+	]
+}

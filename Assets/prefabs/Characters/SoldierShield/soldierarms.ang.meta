@@ -1,0 +1,171 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 19.999998,
+		"y" : -47.368423
+	},
+	"camZoom" : 1.000000,
+	"def_node" : 0,
+	"Count" : 4,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -310.142853,
+				"y" : 88.071404
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 3,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Walk"
+				},
+				{
+					"index" : 2,
+					"name" : ""
+				},
+				{
+					"index" : 3,
+					"name" : "Shoot"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 166.571487,
+				"y" : 144.357208
+			},
+			"name" : "Walk",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms.png",
+				"sliceIndex" : -1,
+				"animIndex" : 1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/arms_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				},
+				{
+					"index" : 3,
+					"name" : "Shoot"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -62.428570,
+				"y" : -112.785706
+			},
+			"name" : "Killed",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 142.857086,
+				"y" : -16.654139
+			},
+			"name" : "Shoot",
+			"object_uid" : 0,
+			"def_link" : 0,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/shoot.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/shoot_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/SoldierShield/arms/shoot_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 1,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : ""
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

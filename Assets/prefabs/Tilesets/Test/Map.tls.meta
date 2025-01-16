@@ -1,0 +1,482 @@
+﻿{
+	"sizeX" : 36,
+	"sizeY" : 36,
+	"normal" :
+	{
+		"Path" : "prefabs/tilesets/test/tiles_n.png",
+		"sliceIndex" : -1,
+		"animIndex" : -1
+	},
+	"material" :
+	{
+		"Path" : "prefabs/tilesets/test/tiles_m.png",
+		"sliceIndex" : -1,
+		"animIndex" : -1
+	},
+	"tileSet" :
+	{
+		"camPos" :
+		{
+			"x" : 123.621208,
+			"y" : -329.940308
+		},
+		"camZoom" : 1.000000,
+		"selTile" : 24,
+		"sizeX" : 36,
+		"sizeY" : 36,
+		"count" : 41,
+		"Tile" : [
+			{
+				"x" : -2,
+				"y" : 1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 0,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : 1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 1,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -2,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 2,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 0,
+				"y" : 1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 4,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 1,
+				"y" : 1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 3,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 5,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 0,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 6,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 1,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 7,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : -2,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 8,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : -3,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 8,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 1,
+				"y" : -2,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 8,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 1,
+				"y" : -4,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 8,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 0,
+				"y" : -2,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 9,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 1,
+				"y" : -3,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 9,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 4,
+				"y" : -1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 10,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 5,
+				"y" : -1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 11,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : -1,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 12,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 4,
+				"y" : -2,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 11,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 4,
+				"y" : -3,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 12,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 7,
+				"y" : -1,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 10,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 7,
+				"y" : -2,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 11,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 7,
+				"y" : -3,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 12,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 4,
+				"y" : -4,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 10,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 7,
+				"y" : -4,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 10,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 5,
+				"y" : -4,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 11,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : -2,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 13,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : -3,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 13,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 5,
+				"y" : -2,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 13,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 5,
+				"y" : -3,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/v/tiles.png",
+					"sliceIndex" : 13,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : -4,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 12,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 3,
+				"y" : -3,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 14,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 4,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 14,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 8,
+				"y" : -3,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 14,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : -5,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 14,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 5,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/test/tiles.png",
+					"sliceIndex" : 15,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 6,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 16,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : 7,
+				"y" : 0,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 17,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : -5,
+				"rotation" : 90,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 18,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -2,
+				"y" : -5,
+				"rotation" : 270,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 18,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -1,
+				"y" : -4,
+				"rotation" : 0,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 18,
+					"animIndex" : -1
+				}
+			},
+			{
+				"x" : -2,
+				"y" : -4,
+				"rotation" : 180,
+				"Texture" :
+				{
+					"Path" : "prefabs/tilesets/default/tiles.png",
+					"sliceIndex" : 18,
+					"animIndex" : -1
+				}
+			}
+		]
+	}
+}

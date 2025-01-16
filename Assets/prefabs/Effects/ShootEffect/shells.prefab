@@ -1,0 +1,192 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 742253,
+			"type" : "VFXEmitter",
+			"name" : "VFXEmitter",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 100.000000,
+					"y" : 100.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"drawLevel" : 10,
+			"noZ" : true,
+			"isLooped" : false,
+			"isStarted" : true,
+			"emitters" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"enabled" : true,
+						"matchEntityRotation" : false,
+						"matchVelocityRotation" : false,
+						"useParticlePrg" : false,
+						"textures" :
+						{
+							"count" : 1,
+							"Elem" : [
+								{
+									"texture" :
+									{
+										"Path" : "prefabs/effects/shooteffect/shell.png",
+										"sliceIndex" : -1,
+										"animIndex" : -1
+									},
+									"scale" :
+									{
+										"x" : 0.350000,
+										"y" : 0.350000
+									},
+									"offset" :
+									{
+										"x" : 0.500000,
+										"y" : 0.500000
+									},
+									"weight" : 1
+								}
+							]
+						},
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 1.000000,
+							"b" : 1.000000,
+							"a" : 1.000000
+						},
+						"velocity" :
+						{
+							"x" : 150.000000,
+							"y" : 150.000000
+						},
+						"omega" :
+						{
+							"x" : -1500.000000,
+							"y" : 500.000000
+						},
+						"sector" :
+						{
+							"x" : 150.000000,
+							"y" : 180.000000
+						},
+						"distance" :
+						{
+							"x" : 60.000000,
+							"y" : 60.000000
+						},
+						"fadeIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"fadeOut" :
+						{
+							"x" : 0.900000,
+							"y" : 1.000000
+						},
+						"scaleIn" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scaleOut" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000
+						},
+						"particlesCount" :
+						{
+							"x" : 1.000000,
+							"y" : 2.000000
+						},
+						"radius" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"spawnY" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"angle" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"bounce" :
+						{
+							"x" : 0.150000,
+							"y" : 0.150000
+						},
+						"bounceDeviation" :
+						{
+							"x" : -20.000000,
+							"y" : 20.000000
+						},
+						"turbulenceX" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"turbulenceY" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"emitsFreq" : 8.000000,
+						"timeLife" : -1.000000,
+						"gravity" : 850.000000,
+						"affectByPlayerDist" : -1.000000,
+						"affectByPlayerFactor" : 0.000000,
+						"affectByEmitterVelocity" : 0.000000,
+						"noisePersistence" : 0.500000,
+						"noiseOctaves" : 0
+					}
+				]
+			}
+		}
+	]
+}

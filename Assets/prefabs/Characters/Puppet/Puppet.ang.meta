@@ -1,0 +1,175 @@
+﻿{
+	"camPos" :
+	{
+		"x" : 19.999998,
+		"y" : -47.368423
+	},
+	"camZoom" : 1.400000,
+	"def_node" : 0,
+	"Count" : 4,
+	"Node" : [
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -278.285706,
+				"y" : 74.500000
+			},
+			"name" : "Idle",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/idle.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/idle_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/idle_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 3,
+			"Link" : [
+				{
+					"index" : 1,
+					"name" : "Walk"
+				},
+				{
+					"index" : 2,
+					"name" : ""
+				},
+				{
+					"index" : 3,
+					"name" : "Accept"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 158.714279,
+				"y" : 91.214272
+			},
+			"name" : "Walk",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/walk.png",
+				"sliceIndex" : -1,
+				"animIndex" : 0
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/walk_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/walk_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "Idle"
+				},
+				{
+					"index" : 3,
+					"name" : "Accept"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : false,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : -64.571426,
+				"y" : -113.500000
+			},
+			"name" : "Killed",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"Count" : 0,
+			"Link" : [
+
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		},
+		{
+			"type" : 0,
+			"looped" : true,
+			"reverse" : false,
+			"pos" :
+			{
+				"x" : 147.857224,
+				"y" : -60.225571
+			},
+			"name" : "Accept",
+			"object_uid" : 0,
+			"def_link" : -1,
+			"texture" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/accept.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"normal" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/accept_n.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"emission" :
+			{
+				"Path" : "prefabs/characters/puppet/sprites/accept_m.png",
+				"sliceIndex" : -1,
+				"animIndex" : -1
+			},
+			"Count" : 2,
+			"Link" : [
+				{
+					"index" : 0,
+					"name" : "idle"
+				},
+				{
+					"index" : 1,
+					"name" : "walk"
+				}
+			],
+			"CountEvent" : 0,
+			"Event" : [
+
+			]
+		}
+	]
+}

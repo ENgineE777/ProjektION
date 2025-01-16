@@ -1,0 +1,178 @@
+{
+	"Aliases" : [
+		{
+			"name" : "Hero.MOVE_VERT",
+			"AliasesRef" : [
+				{ "names" : ["KEY_W"], "modifier" : 1.0 },
+				{ "names" : ["JOY_DPAD_UP"], "modifier" : 1.0 },
+				{ "names" : ["KEY_S"], "modifier" : -1.0 },
+				{ "names" : ["JOY_DPAD_DOWN"], "modifier" : -1.0 },
+				{ "names" : ["JOY_LEFT_STICK_V"] }
+			]
+		},
+		{
+			"name" : "Hero.MOVE_HORZ",
+			"AliasesRef" : [
+				{ "names" : ["KEY_A"], "modifier" : -1.0 },
+				{ "names" : ["JOY_DPAD_LEFT"], "modifier" : -1.0 },
+				{ "names" : ["KEY_D"], "modifier" : 1.0 },
+				{ "names" : ["JOY_DPAD_RIGHT"], "modifier" : 1.0 },
+				{ "names" : ["JOY_LEFT_STICK_H"] }
+			]
+		},
+		{
+			"name" : "Hero.DASH",
+			"AliasesRef" : [
+				{ "names" : ["MS_BTN0"] },
+				{ "names" : ["JOY_RIGHT_TRIGER"] }
+			]
+		},
+		{
+			"name" : "Hero.USE",
+			"AliasesRef" : [
+				{ "names" : ["KEY_SPACE"] },
+				{ "names" : ["JOY_RIGHT_SHOULDER"] }
+			]
+		},
+		{
+			"name" : "Hero.DROP",
+			"AliasesRef" : [
+				{ "names" : ["KEY_LSHIFT"] },
+				{ "names" : ["JOY_RIGHT_THUMB"] }
+			]
+		},
+		{
+			"name" : "Hero.SHOOT",
+			"AliasesRef" : [
+				{ "names" : ["MS_BTN1"] },
+				{ "names" : ["JOY_LEFT_TRIGER"] }
+			]
+		},
+		{
+			"name" : "Hero.AIM_VERT",
+			"AliasesRef" : [
+				{ "names" : ["JOY_LEFT_STICK_V"] }
+			]
+		},
+		{
+			"name" : "Hero.AIM_HORZ",
+			"AliasesRef" : [
+				{ "names" : ["JOY_LEFT_STICK_H"] }
+			]
+		},
+		{
+			"name" : "Hero.AIM_MAIN_VERT",
+			"AliasesRef" : [
+				{ "names" : ["JOY_RIGHT_STICK_V"] }
+			]
+		},
+		{
+			"name" : "Hero.AIM_MAIN_HORZ",
+			"AliasesRef" : [
+				{ "names" : ["JOY_RIGHT_STICK_H"] }
+			]
+		},
+		{
+			"name" : "Hero.CURSOR_X",
+			"AliasesRef" : [
+				{ "names" : ["MS_X"] }
+			]
+		},
+		{
+			"name" : "Hero.CURSOR_Y",
+			"AliasesRef" : [
+				{ "names" : ["MS_Y"] }
+			]
+		},
+		{
+			"name" : "Mercenary.SHOOT",
+			"AliasesRef" : [
+				{ "names" : ["MS_BTN0"] },
+				{ "names" : ["JOY_RIGHT_TRIGER"] }
+			]
+		},
+		{
+			"name" : "Mercenary.DASH",
+			"AliasesRef" : [
+				{ "names" : ["MS_BTN1"] },
+				{ "names" : ["JOY_LEFT_TRIGER"] }
+			]
+		},
+		{
+			"name" : "UI.CONTINUE",
+			"AliasesRef" : [
+				{ "names" : ["KEY_C"] },
+				{ "names" : ["JOY_A"] }
+			]
+		},
+		{
+			"name" : "UI.RESTART",
+			"AliasesRef" : [
+				{ "names" : ["KEY_R"] },
+				{ "names" : ["JOY_A"] }
+			]
+		},
+		{
+			"name" : "UI.ACTIVATE",
+			"AliasesRef" : [
+				{ "names" : ["KEY_RETURN"] },
+				{ "names" : ["JOY_A"] }
+			]
+		},
+		{
+			"name" : "UI.PAUSE",
+			"AliasesRef" : [
+				{ "names" : ["KEY_ESCAPE"] },
+				{ "names" : ["JOY_START"] }
+			]
+		},
+		{
+			"name" : "UI.UP",
+			"AliasesRef" : [
+				{ "names" : ["KEY_UP"] },
+				{ "names" : ["JOY_DPAD_UP"] }
+			]
+		},
+		{
+			"name" : "UI.DOWN",
+			"AliasesRef" : [
+				{ "names" : ["KEY_DOWN"] },
+				{ "names" : ["JOY_DPAD_DOWN"] }
+			]
+		},
+		{
+			"name" : "UI.LEFT",
+			"AliasesRef" : [
+				{ "names" : ["KEY_LEFT"] },
+				{ "names" : ["JOY_DPAD_LEFT"] }
+			]
+		},
+		{
+			"name" : "UI.RIGHT",
+			"AliasesRef" : [
+				{ "names" : ["KEY_RIGHT"] },
+				{ "names" : ["JOY_DPAD_RIGHT"] }
+			]
+		},
+		{
+			"name" : "Camera.MOVE_ACTIVE",
+			"AliasesRef" : [
+				{ "names" : ["KEY_LCONTROL"] },
+				{ "names" : ["KEY_RCONTROL"] },
+				{ "names" : ["JOY_LEFT_SHOULDER"] }
+			]
+		},
+		{
+			"name" : "Camera.MOVE_HORZ",
+			"AliasesRef" : [
+				{ "names" : ["JOY_RIGHT_STICK_H"] }
+			]
+		},
+		{
+			"name" : "Camera.MOVE_VERT",
+			"AliasesRef" : [
+				{ "names" : ["JOY_RIGHT_STICK_V"] }
+			]
+		}
+	]
+} 

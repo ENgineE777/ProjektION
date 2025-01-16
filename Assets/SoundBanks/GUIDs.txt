@@ -1,0 +1,35 @@
+{da9a2ac8-9a31-4f37-8b19-027caade2437} bank:/Master
+{42870a1c-eb4a-0375-0d50-88825b2d22af} bank:/Master.strings
+{97940de7-eceb-46ae-be3b-186d9f367ba0} bus:/
+{46150e6b-6856-455b-b74c-7a3cebeb0e47} bus:/Music
+{27adae64-db81-4835-ac9f-583886bc5046} bus:/Reverb
+{3db9c94e-786b-445e-9fac-fe0aa9943ce5} bus:/SFX
+{01df80dc-d041-43d6-a17d-6a5f1bc51790} event:/Bomb/expl
+{15122b35-b115-4f51-b522-25492d460045} event:/Bomb/trig
+{85ba06e7-549b-4705-a31e-adc6379db623} event:/Door
+{8c4c6f0e-1177-403f-b4b2-bc7a04fbdde6} event:/Drone/Drone fly
+{4a942050-46f3-4cd1-9e1a-ba208e9a92d2} event:/Drone/Drone trig
+{52fd880b-a243-49ef-a4c9-16d000b7c018} event:/Fan
+{882d1545-417a-40c4-b0c1-25499ad4180c} event:/Laser
+{89563306-4da8-4e32-a533-b69b955c659c} event:/Menu/next
+{b3e003b9-cac9-46c0-81dc-ecfff2299414} event:/Menu/pick
+{3eaa0d35-eb7f-414d-b7cb-e5b670c6f802} event:/Menu/prev
+{728db6b2-7653-49f3-9aca-6e2107002148} event:/Music/Battle
+{ef7b27c7-ad28-4e5e-965f-8598084517e6} event:/Music/Intro
+{369c59aa-a74b-410c-afbc-c434e1ca9d63} event:/Music/MainTheme
+{3ab41a8c-41f4-45e0-8dfe-36551d8b2e73} event:/Music/Normal
+{e059b6de-bab5-4e8a-b04e-5800150b9e08} event:/Soldier/Death
+{0e1ae831-cc0b-410e-ac03-1a24519899f7} event:/Soldier/FAN death
+{35e7557a-8eab-4d93-89ef-0d4b6eb0a2be} event:/Soldier/Footsteps
+{faa77174-fe38-46dd-8da0-372f8a0a4eef} event:/Soldier/Shooting
+{be17cbdd-355d-4cb1-be35-fce08820591e} event:/Soldier/Triggered
+{6372a430-15cc-45e4-a5c6-989bbe4ca382} event:/Turret/Turret move
+{9fbb6419-8517-4d9c-ad9e-5919272f5c53} event:/Turret/Turret shoot
+{1ebdda8d-20c2-4577-a256-3e6dbb7bf623} event:/Turret/Turret trig
+{3f7884c5-7be8-4931-960b-df055e750935} event:/hero/Dash_enemies
+{361b87be-296d-4d27-999e-c327f0e137a8} event:/hero/Dash_noenemies
+{62e248ad-0534-47de-a270-2cd5de0b36d8} event:/hero/Footsteps
+{45520072-2c14-4511-92d4-a7d087640bad} event:/hero/land
+{fadb8a8c-7f0b-4837-8878-dc4972991e04} vca:/Master
+{3f97ca97-d29a-42cf-beef-22f942133af2} vca:/Music
+{57b34cd3-eb10-4ee3-923e-adf47024823a} vca:/SFX

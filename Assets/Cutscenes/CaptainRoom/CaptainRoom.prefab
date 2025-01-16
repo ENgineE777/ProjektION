@@ -1,0 +1,3786 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 417529856,
+			"type" : "Node2D",
+			"name" : "Node2D",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 64.000000,
+					"y" : 64.000000,
+					"z" : 64.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"childs" : [
+				{
+					"prefabInstance" : false,
+					"uid" : 1625292800,
+					"type" : "Node2D",
+					"name" : "Objects",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000,
+							"z" : 0.010000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 82903040,
+							"type" : "SpriteEntity",
+							"name" : "captainBack",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 162.000000,
+									"y" : -108.000000,
+									"z" : -0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 30.000000,
+									"y" : 56.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_back.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_back_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_back_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 30.000000,
+								"y" : 56.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1038745600,
+							"type" : "AnimGraph2D",
+							"name" : "puppet",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 90.000000,
+									"y" : -107.500000,
+									"z" : -0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 35.000000,
+									"y" : 46.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"anim" :
+							{
+								"Path" : "prefabs/characters/puppet/puppet.ang"
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -1309605888,
+							"type" : "Node2D",
+							"name" : "puppetFrom",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -54.000000,
+									"y" : -108.000000,
+									"z" : -0.004000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -648609792,
+							"type" : "Node2D",
+							"name" : "puppetTo",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 90.000000,
+									"y" : -108.000000,
+									"z" : -0.004000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -2046033920,
+							"type" : "SpriteEntity",
+							"name" : "bubble_right",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 120.757423,
+									"y" : 10.081196,
+									"z" : -0.005000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 120.000000,
+									"y" : 69.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.079047,
+									"y" : 0.128132,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/dialog/dialog_bubble_left.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 7,
+							"noZ" : true,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 120.000000,
+								"y" : 69.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1824980992,
+							"type" : "SpriteEntity",
+							"name" : "bubble_left",
+							"layerName" : "",
+							"visible" : false,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 30.509392,
+									"y" : 0.226307,
+									"z" : -0.005000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 120.000000,
+									"y" : 69.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.070408,
+									"y" : 0.135651,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/dialog/dialog_bubble_right.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 7,
+							"noZ" : true,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 120.000000,
+								"y" : 69.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 688521216,
+							"type" : "SpriteEntity",
+							"name" : "captain",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 161.999969,
+									"y" : -107.499992,
+									"z" : -0.001000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : -1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 30.000000,
+									"y" : 56.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_front.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_front_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/captain/captain_front_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 0,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 1.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 30.000000,
+								"y" : 56.000000
+							},
+							"usePortlas" : false
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -2139881472,
+					"type" : "Node2D",
+					"name" : "Props",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -3.651788,
+							"y" : -39.851116,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : -1063452672,
+							"type" : "PointLight2D",
+							"name" : "PointLight2D22",
+							"layerName" : "Lights",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -356.200958,
+									"y" : 3.056684,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 240.000000,
+									"y" : 240.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.000000,
+								"g" : 0.533333,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.400000,
+							"intesity" : 0.400000,
+							"lineWidth" : 36.000000,
+							"viewAngle" : 110.000000,
+							"castShadow" : false,
+							"lightGroup" : 2
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 1952776192,
+							"type" : "prefabs/levelprops/hangar/screenone/screenone.prefab",
+							"name" : "screenone.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 57.651783,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 828637184,
+							"type" : "prefabs/levelprops/hangar/panelone/panelone.prefab",
+							"name" : "panelone.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -213.326813,
+									"y" : 39.851116,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -1784545280,
+							"type" : "prefabs/levelprops/hangar/screenone/screenone.prefab",
+							"name" : "screenone.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 237.651825,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 341901312,
+							"type" : "prefabs/levelprops/hangar/screenone/screenone.prefab",
+							"name" : "screenone.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 165.651825,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -1112539136,
+							"type" : "prefabs/levelprops/hangar/screentwo/screentwo.prefab",
+							"name" : "screentwo.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 201.651810,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -1747976192,
+							"type" : "prefabs/levelprops/hangar/screentwo/screentwo.prefab",
+							"name" : "screentwo.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 93.651787,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 434962432,
+							"type" : "prefabs/levelprops/hangar/screenthree/screenthree.prefab",
+							"name" : "screenthree.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 129.651825,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -702218240,
+							"type" : "prefabs/levelprops/hangar/screenthree/screenthree.prefab",
+							"name" : "screenthree.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 21.651787,
+									"y" : -40.148869,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -1771831296,
+							"type" : "prefabs/levelprops/hangar/screenfour/screenfour.prefab",
+							"name" : "screenfour.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 273.651794,
+									"y" : 21.851112,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 93126656,
+							"type" : "prefabs/levelprops/hangar/screenfive/screenfive.prefab",
+							"name" : "screenfive.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -8.348211,
+									"y" : 21.851112,
+									"z" : -0.090000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 1626472448,
+							"type" : "prefabs/levelprops/hangar/screensix/screensix.prefab",
+							"name" : "screensix.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 229.651825,
+									"y" : 65.851135,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 691732480,
+							"type" : "prefabs/levelprops/hangar/animatedone/animatedone.prefab",
+							"name" : "animatedone.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 363.651764,
+									"y" : -31.148878,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 1701838848,
+							"type" : "prefabs/levelprops/hangar/animatedone/animatedone.prefab",
+							"name" : "animatedone.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -104.348213,
+									"y" : -31.148878,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 64.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -1074593792,
+							"type" : "PointLight2D",
+							"name" : "PointLight2D21",
+							"layerName" : "Lights",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -176.220245,
+									"y" : 2.449825,
+									"z" : 0.000000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : 180.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 240.000000,
+									"y" : 240.000000,
+									"z" : 1.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							},
+							"color" :
+							{
+								"r" : 0.000000,
+								"g" : 0.533333,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"falloff" : 0.400000,
+							"intesity" : 0.400000,
+							"lineWidth" : 36.000000,
+							"viewAngle" : 110.000000,
+							"castShadow" : false,
+							"lightGroup" : 2
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 1172373504,
+							"type" : "prefabs/levelprops/hangar/lamplarge/lamplarge.prefab",
+							"name" : "lamplarge.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : -270.632904,
+									"y" : 75.851135,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 24.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : 2044264448,
+							"type" : "prefabs/levelprops/hangar/lampmedium/lampmedium.prefab",
+							"name" : "lampmedium.prefab",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 54.369999,
+									"y" : 75.851135,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 24.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : true,
+							"uid" : -1573978112,
+							"type" : "prefabs/levelprops/hangar/lampmedium/lampmedium.prefab",
+							"name" : "lampmedium.prefab1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 223.292252,
+									"y" : 75.851135,
+									"z" : 0.010000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 64.000000,
+									"y" : 24.000000,
+									"z" : 64.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 1.000000,
+									"z" : 0.500000
+								}
+							},
+							"childs" : [
+
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : 1741684736,
+							"type" : "FogZone",
+							"name" : "FogZone14",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 122.650864,
+									"y" : -47.160984,
+									"z" : 0.005000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 1013.360168,
+									"y" : 95.000000,
+									"z" : 100.000000
+								},
+								"offset" :
+								{
+									"x" : 0.500000,
+									"y" : 0.500000,
+									"z" : 0.500000
+								}
+							}
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : 1497694208,
+					"type" : "Node2D",
+					"name" : "TimeMap",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -7.303576,
+							"y" : -79.702225,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 2135490560,
+							"type" : "TileMap",
+							"name" : "map_walls",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 7.303576,
+									"y" : 79.972992,
+									"z" : 0.013000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "prefabs/tilesets/hangar/map.tls"
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"lightGroup" : 1,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 972.000000,
+								"y" : 432.000000
+							},
+							"usePortlas" : false,
+							"count" : 224,
+							"Tile" : [
+								{
+									"x" : -3,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 3,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -6,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -5,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -3,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -2,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -1,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 0,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 1,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 2,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 3,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 4,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 5,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 6,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 7,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 8,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 8,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 7,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 6,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 5,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 4,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 3,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 1,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 0,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -1,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -2,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -3,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -4,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -5,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -6,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 6,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 5,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 4,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -1,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -3,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -5,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -6,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -7,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -9,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : -10,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 0,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : 3,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : 9,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : 11,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : 12,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 13,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 15,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 1,
+									"y" : -3,
+									"index" : 671
+								},
+								{
+									"x" : 2,
+									"y" : -3,
+									"index" : 671
+								},
+								{
+									"x" : 8,
+									"y" : -3,
+									"index" : 671
+								},
+								{
+									"x" : 7,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : -2,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : -4,
+									"y" : -3,
+									"index" : 671
+								},
+								{
+									"x" : 14,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : -8,
+									"y" : -3,
+									"index" : 307
+								},
+								{
+									"x" : 11,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 12,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -6,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -5,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -4,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -3,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -2,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -1,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 0,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 1,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 2,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 3,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 4,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 5,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 6,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 7,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 8,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 11,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 12,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -4,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 12,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : -3,
+									"index" : 308
+								},
+								{
+									"x" : 16,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : 5,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : 6,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : -9,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : -8,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : -6,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : -5,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : -1,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 1,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 2,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 4,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 6,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 7,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 8,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 11,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 13,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 14,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 16,
+									"y" : 2,
+									"index" : 311
+								},
+								{
+									"x" : 3,
+									"y" : 2,
+									"index" : 672
+								},
+								{
+									"x" : 5,
+									"y" : 2,
+									"index" : 672
+								},
+								{
+									"x" : -2,
+									"y" : 2,
+									"index" : 672
+								},
+								{
+									"x" : 12,
+									"y" : 2,
+									"index" : 672
+								},
+								{
+									"x" : 0,
+									"y" : 2,
+									"index" : 316
+								},
+								{
+									"x" : -7,
+									"y" : 2,
+									"index" : 316
+								},
+								{
+									"x" : 15,
+									"y" : 2,
+									"index" : 316
+								},
+								{
+									"x" : -10,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -6,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -5,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -4,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -3,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -2,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : -1,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 0,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 1,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 2,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 3,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 4,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 5,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 6,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 7,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 11,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 12,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : 4,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 12,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 10,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 7,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 6,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 2,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -3,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -4,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -6,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -7,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -8,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -9,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : -10,
+									"y" : 3,
+									"index" : 2
+								},
+								{
+									"x" : 9,
+									"y" : 1,
+									"index" : 609
+								},
+								{
+									"x" : 9,
+									"y" : 0,
+									"index" : 315
+								},
+								{
+									"x" : 10,
+									"y" : 0,
+									"index" : 313
+								},
+								{
+									"x" : 10,
+									"y" : 1,
+									"index" : 608
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"index" : 359
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"index" : 299
+								},
+								{
+									"x" : -3,
+									"y" : 2,
+									"index" : 299
+								},
+								{
+									"x" : -4,
+									"y" : 2,
+									"index" : 359
+								},
+								{
+									"x" : -4,
+									"y" : 1,
+									"index" : 322
+								},
+								{
+									"x" : -3,
+									"y" : 1,
+									"index" : 310
+								},
+								{
+									"x" : -4,
+									"y" : 0,
+									"index" : 315
+								},
+								{
+									"x" : -3,
+									"y" : 0,
+									"index" : 313
+								},
+								{
+									"x" : 1,
+									"y" : -4,
+									"index" : 491
+								},
+								{
+									"x" : 4,
+									"y" : -4,
+									"index" : 469
+								},
+								{
+									"x" : 5,
+									"y" : -4,
+									"index" : 490
+								},
+								{
+									"x" : 6,
+									"y" : -4,
+									"index" : 488
+								},
+								{
+									"x" : 7,
+									"y" : -4,
+									"index" : 464
+								},
+								{
+									"x" : 8,
+									"y" : -4,
+									"index" : 490
+								},
+								{
+									"x" : 4,
+									"y" : 3,
+									"index" : 464
+								},
+								{
+									"x" : 5,
+									"y" : 3,
+									"index" : 490
+								},
+								{
+									"x" : 3,
+									"y" : 3,
+									"index" : 488
+								},
+								{
+									"x" : 1,
+									"y" : 3,
+									"index" : 466
+								},
+								{
+									"x" : 0,
+									"y" : 3,
+									"index" : 464
+								},
+								{
+									"x" : -1,
+									"y" : 3,
+									"index" : 488
+								},
+								{
+									"x" : -2,
+									"y" : 3,
+									"index" : 489
+								},
+								{
+									"x" : -5,
+									"y" : 3,
+									"index" : 489
+								},
+								{
+									"x" : 11,
+									"y" : 3,
+									"index" : 489
+								},
+								{
+									"x" : -6,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -2,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : 0,
+									"y" : -4,
+									"index" : 468
+								},
+								{
+									"x" : -1,
+									"y" : -4,
+									"index" : 488
+								},
+								{
+									"x" : 11,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 11,
+									"y" : -4,
+									"index" : 491
+								},
+								{
+									"x" : 12,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 13,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 14,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 15,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 16,
+									"y" : -5,
+									"index" : 2
+								},
+								{
+									"x" : 2,
+									"y" : -4,
+									"index" : 465
+								},
+								{
+									"x" : 2,
+									"y" : -5,
+									"index" : 491
+								},
+								{
+									"x" : 8,
+									"y" : 3,
+									"index" : 465
+								},
+								{
+									"x" : 8,
+									"y" : 4,
+									"index" : 489
+								},
+								{
+									"x" : -4,
+									"y" : -4,
+									"index" : 2
+								},
+								{
+									"x" : -5,
+									"y" : -4,
+									"index" : 491
+								}
+							]
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -424869888,
+							"type" : "TileMap",
+							"name" : "map_back",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 7.303576,
+									"y" : 79.972992,
+									"z" : 0.013000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 36.000000,
+									"y" : 36.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.000000,
+									"y" : 0.000000,
+									"z" : 0.500000
+								}
+							},
+							"drawLevel" : 0,
+							"tileSet" :
+							{
+								"Path" : "prefabs/tilesets/hangar/map.tls"
+							},
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"lightGroup" : 2,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 972.000000,
+								"y" : 216.000000
+							},
+							"usePortlas" : false,
+							"count" : 121,
+							"Tile" : [
+								{
+									"x" : -1,
+									"y" : -2,
+									"index" : 682
+								},
+								{
+									"x" : 7,
+									"y" : -2,
+									"index" : 686
+								},
+								{
+									"x" : 6,
+									"y" : -2,
+									"index" : 685
+								},
+								{
+									"x" : 5,
+									"y" : -2,
+									"index" : 684
+								},
+								{
+									"x" : 4,
+									"y" : -2,
+									"index" : 683
+								},
+								{
+									"x" : 3,
+									"y" : -2,
+									"index" : 685
+								},
+								{
+									"x" : 2,
+									"y" : -2,
+									"index" : 684
+								},
+								{
+									"x" : 1,
+									"y" : -2,
+									"index" : 683
+								},
+								{
+									"x" : 0,
+									"y" : -2,
+									"index" : 685
+								},
+								{
+									"x" : -1,
+									"y" : -1,
+									"index" : 681
+								},
+								{
+									"x" : 7,
+									"y" : -1,
+									"index" : 687
+								},
+								{
+									"x" : 7,
+									"y" : 2,
+									"index" : 688
+								},
+								{
+									"x" : -1,
+									"y" : 2,
+									"index" : 691
+								},
+								{
+									"x" : 7,
+									"y" : 3,
+									"index" : 695
+								},
+								{
+									"x" : -1,
+									"y" : 3,
+									"index" : 694
+								},
+								{
+									"x" : 0,
+									"y" : 3,
+									"index" : 696
+								},
+								{
+									"x" : 6,
+									"y" : 3,
+									"index" : 697
+								},
+								{
+									"x" : 1,
+									"y" : 3,
+									"index" : 698
+								},
+								{
+									"x" : 2,
+									"y" : 3,
+									"index" : 698
+								},
+								{
+									"x" : 3,
+									"y" : 3,
+									"index" : 698
+								},
+								{
+									"x" : 4,
+									"y" : 3,
+									"index" : 698
+								},
+								{
+									"x" : 5,
+									"y" : 3,
+									"index" : 698
+								},
+								{
+									"x" : 8,
+									"y" : -2,
+									"index" : 496
+								},
+								{
+									"x" : 8,
+									"y" : -1,
+									"index" : 497
+								},
+								{
+									"x" : 8,
+									"y" : 0,
+									"index" : 497
+								},
+								{
+									"x" : 8,
+									"y" : 1,
+									"index" : 497
+								},
+								{
+									"x" : 8,
+									"y" : 2,
+									"index" : 497
+								},
+								{
+									"x" : 8,
+									"y" : 3,
+									"index" : 498
+								},
+								{
+									"x" : -2,
+									"y" : -2,
+									"index" : 496
+								},
+								{
+									"x" : -2,
+									"y" : -1,
+									"index" : 497
+								},
+								{
+									"x" : -2,
+									"y" : 0,
+									"index" : 497
+								},
+								{
+									"x" : -2,
+									"y" : 1,
+									"index" : 497
+								},
+								{
+									"x" : -2,
+									"y" : 2,
+									"index" : 497
+								},
+								{
+									"x" : -2,
+									"y" : 3,
+									"index" : 498
+								},
+								{
+									"x" : 9,
+									"y" : 3,
+									"index" : 377
+								},
+								{
+									"x" : 9,
+									"y" : 2,
+									"index" : 377
+								},
+								{
+									"x" : 9,
+									"y" : 1,
+									"index" : 377
+								},
+								{
+									"x" : 9,
+									"y" : 0,
+									"index" : 377
+								},
+								{
+									"x" : 9,
+									"y" : -1,
+									"index" : 377
+								},
+								{
+									"x" : 9,
+									"y" : -2,
+									"index" : 377
+								},
+								{
+									"x" : 10,
+									"y" : 3,
+									"index" : 376
+								},
+								{
+									"x" : 10,
+									"y" : 2,
+									"index" : 376
+								},
+								{
+									"x" : 10,
+									"y" : 1,
+									"index" : 376
+								},
+								{
+									"x" : 10,
+									"y" : 0,
+									"index" : 376
+								},
+								{
+									"x" : 10,
+									"y" : -1,
+									"index" : 376
+								},
+								{
+									"x" : 10,
+									"y" : -2,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : 3,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : 2,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : 1,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : 0,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : -1,
+									"index" : 376
+								},
+								{
+									"x" : -3,
+									"y" : -2,
+									"index" : 376
+								},
+								{
+									"x" : -4,
+									"y" : 3,
+									"index" : 377
+								},
+								{
+									"x" : -4,
+									"y" : 2,
+									"index" : 377
+								},
+								{
+									"x" : -4,
+									"y" : 1,
+									"index" : 377
+								},
+								{
+									"x" : -4,
+									"y" : 0,
+									"index" : 377
+								},
+								{
+									"x" : -4,
+									"y" : -1,
+									"index" : 377
+								},
+								{
+									"x" : -4,
+									"y" : -2,
+									"index" : 377
+								},
+								{
+									"x" : 11,
+									"y" : 3,
+									"index" : 498
+								},
+								{
+									"x" : 11,
+									"y" : 2,
+									"index" : 497
+								},
+								{
+									"x" : -5,
+									"y" : 3,
+									"index" : 498
+								},
+								{
+									"x" : -5,
+									"y" : 2,
+									"index" : 497
+								},
+								{
+									"x" : 7,
+									"y" : 0,
+									"index" : 688
+								},
+								{
+									"x" : -1,
+									"y" : 0,
+									"index" : 692
+								},
+								{
+									"x" : 7,
+									"y" : 1,
+									"index" : 695
+								},
+								{
+									"x" : -1,
+									"y" : 1,
+									"index" : 694
+								},
+								{
+									"x" : 0,
+									"y" : 1,
+									"index" : 696
+								},
+								{
+									"x" : 6,
+									"y" : 1,
+									"index" : 697
+								},
+								{
+									"x" : 1,
+									"y" : 1,
+									"index" : 698
+								},
+								{
+									"x" : 2,
+									"y" : 1,
+									"index" : 698
+								},
+								{
+									"x" : 3,
+									"y" : 1,
+									"index" : 698
+								},
+								{
+									"x" : 4,
+									"y" : 1,
+									"index" : 698
+								},
+								{
+									"x" : 5,
+									"y" : 1,
+									"index" : 698
+								},
+								{
+									"x" : 12,
+									"y" : 1,
+									"index" : 331
+								},
+								{
+									"x" : 12,
+									"y" : -2,
+									"index" : 334
+								},
+								{
+									"x" : 12,
+									"y" : -1,
+									"index" : 333
+								},
+								{
+									"x" : 12,
+									"y" : 0,
+									"index" : 333
+								},
+								{
+									"x" : 13,
+									"y" : 1,
+									"index" : 298
+								},
+								{
+									"x" : 13,
+									"y" : -2,
+									"index" : 318
+								},
+								{
+									"x" : 13,
+									"y" : 0,
+									"index" : 317
+								},
+								{
+									"x" : 13,
+									"y" : -1,
+									"index" : 317
+								},
+								{
+									"x" : 14,
+									"y" : 1,
+									"index" : 297
+								},
+								{
+									"x" : 14,
+									"y" : 0,
+									"index" : 323
+								},
+								{
+									"x" : 14,
+									"y" : -1,
+									"index" : 323
+								},
+								{
+									"x" : 14,
+									"y" : -2,
+									"index" : 324
+								},
+								{
+									"x" : 15,
+									"y" : 1,
+									"index" : 296
+								},
+								{
+									"x" : 15,
+									"y" : 0,
+									"index" : 325
+								},
+								{
+									"x" : 15,
+									"y" : -1,
+									"index" : 325
+								},
+								{
+									"x" : 15,
+									"y" : -2,
+									"index" : 326
+								},
+								{
+									"x" : 16,
+									"y" : 1,
+									"index" : 327
+								},
+								{
+									"x" : 16,
+									"y" : 0,
+									"index" : 329
+								},
+								{
+									"x" : 16,
+									"y" : -1,
+									"index" : 329
+								},
+								{
+									"x" : 16,
+									"y" : -2,
+									"index" : 330
+								},
+								{
+									"x" : 11,
+									"y" : -2,
+									"index" : 378
+								},
+								{
+									"x" : 11,
+									"y" : -1,
+									"index" : 378
+								},
+								{
+									"x" : 11,
+									"y" : 0,
+									"index" : 378
+								},
+								{
+									"x" : 11,
+									"y" : 1,
+									"index" : 378
+								},
+								{
+									"x" : -5,
+									"y" : 1,
+									"index" : 498
+								},
+								{
+									"x" : -5,
+									"y" : 0,
+									"index" : 497
+								},
+								{
+									"x" : -5,
+									"y" : -1,
+									"index" : 497
+								},
+								{
+									"x" : -5,
+									"y" : -2,
+									"index" : 496
+								},
+								{
+									"x" : -10,
+									"y" : 1,
+									"index" : 409
+								},
+								{
+									"x" : -9,
+									"y" : 1,
+									"index" : 419
+								},
+								{
+									"x" : -8,
+									"y" : 1,
+									"index" : 419
+								},
+								{
+									"x" : -7,
+									"y" : 1,
+									"index" : 419
+								},
+								{
+									"x" : -6,
+									"y" : 1,
+									"index" : 410
+								},
+								{
+									"x" : -6,
+									"y" : 0,
+									"index" : 414
+								},
+								{
+									"x" : -7,
+									"y" : 0,
+									"index" : 418
+								},
+								{
+									"x" : -8,
+									"y" : 0,
+									"index" : 418
+								},
+								{
+									"x" : -9,
+									"y" : 0,
+									"index" : 418
+								},
+								{
+									"x" : -10,
+									"y" : 0,
+									"index" : 413
+								},
+								{
+									"x" : -10,
+									"y" : -1,
+									"index" : 424
+								},
+								{
+									"x" : -6,
+									"y" : -1,
+									"index" : 425
+								},
+								{
+									"x" : -7,
+									"y" : -1,
+									"index" : 427
+								},
+								{
+									"x" : -8,
+									"y" : -1,
+									"index" : 427
+								},
+								{
+									"x" : -9,
+									"y" : -1,
+									"index" : 427
+								},
+								{
+									"x" : -6,
+									"y" : -2,
+									"index" : 417
+								},
+								{
+									"x" : -7,
+									"y" : -2,
+									"index" : 420
+								},
+								{
+									"x" : -8,
+									"y" : -2,
+									"index" : 420
+								},
+								{
+									"x" : -9,
+									"y" : -2,
+									"index" : 420
+								},
+								{
+									"x" : -10,
+									"y" : -2,
+									"index" : 416
+								}
+							]
+						}
+					]
+				},
+				{
+					"prefabInstance" : false,
+					"uid" : -361693184,
+					"type" : "Node2D",
+					"name" : "Back",
+					"layerName" : "",
+					"visible" : true,
+					"Transform" :
+					{
+						"position" :
+						{
+							"x" : -3.651788,
+							"y" : -39.851116,
+							"z" : 0.000000
+						},
+						"rotation" :
+						{
+							"x" : -0.000000,
+							"y" : 0.000000,
+							"z" : -0.000000
+						},
+						"scale" :
+						{
+							"x" : 1.000000,
+							"y" : 1.000000,
+							"z" : 1.000000
+						},
+						"size" :
+						{
+							"x" : 64.000000,
+							"y" : 64.000000,
+							"z" : 64.000000
+						},
+						"offset" :
+						{
+							"x" : 0.500000,
+							"y" : 0.500000,
+							"z" : 0.500000
+						}
+					},
+					"childs" : [
+						{
+							"prefabInstance" : false,
+							"uid" : 1808924672,
+							"type" : "SpriteEntity",
+							"name" : "stars1",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 99.307922,
+									"y" : 79.161476,
+									"z" : 0.017000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 640.000000,
+									"y" : 360.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.399037,
+									"y" : 0.435859,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundone.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/background/empty_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundone_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 2,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 0.725490,
+								"g" : 0.921569,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 2.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 640.000000,
+								"y" : 360.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -1174405120,
+							"type" : "SpriteEntity",
+							"name" : "stars2",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 99.307922,
+									"y" : 79.161476,
+									"z" : 0.016000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 640.000000,
+									"y" : 360.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.399037,
+									"y" : 0.435859,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundtwo.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/background/empty_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundtwo_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 2,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 0.725490,
+								"g" : 0.921569,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 2.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 640.000000,
+								"y" : 360.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -1537736704,
+							"type" : "SpriteEntity",
+							"name" : "stars3",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 99.307922,
+									"y" : 79.161476,
+									"z" : 0.015000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 640.000000,
+									"y" : 360.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.399037,
+									"y" : 0.435859,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundthree.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/background/empty_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/background/backgroundthree_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 2,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 0.725490,
+								"g" : 0.921569,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 2.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 640.000000,
+								"y" : 360.000000
+							},
+							"usePortlas" : false
+						},
+						{
+							"prefabInstance" : false,
+							"uid" : -251133952,
+							"type" : "SpriteEntity",
+							"name" : "back",
+							"layerName" : "",
+							"visible" : true,
+							"Transform" :
+							{
+								"position" :
+								{
+									"x" : 99.307922,
+									"y" : 79.161476,
+									"z" : 0.018000
+								},
+								"rotation" :
+								{
+									"x" : -0.000000,
+									"y" : 0.000000,
+									"z" : -0.000000
+								},
+								"scale" :
+								{
+									"x" : 1.000000,
+									"y" : 1.000000,
+									"z" : 1.000000
+								},
+								"size" :
+								{
+									"x" : 640.000000,
+									"y" : 360.000000,
+									"z" : 0.000000
+								},
+								"offset" :
+								{
+									"x" : 0.399037,
+									"y" : 0.435859,
+									"z" : 0.000000
+								}
+							},
+							"texture" :
+							{
+								"Path" : "cutscenes/intro/background/background.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"normal" :
+							{
+								"Path" : "cutscenes/intro/background/empty_n.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"material" :
+							{
+								"Path" : "cutscenes/intro/background/background_m.png",
+								"sliceIndex" : -1,
+								"animIndex" : -1
+							},
+							"drawLevel" : 2,
+							"noZ" : false,
+							"lighten" : false,
+							"color" :
+							{
+								"r" : 1.000000,
+								"g" : 1.000000,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisive" :
+							{
+								"r" : 0.725490,
+								"g" : 0.921569,
+								"b" : 1.000000,
+								"a" : 1.000000
+							},
+							"emmisiveIntencity" : 2.000000,
+							"lightGroup" : 1,
+							"useRimLight" : false,
+							"paralaxInEditor" : false,
+							"paralax.x" : 1.000000,
+							"paralax.y" : 1.000000,
+							"autoTileH" : false,
+							"autoTileV" : false,
+							"autoCalcTileZone" : true,
+							"zoneSize" :
+							{
+								"x" : 640.000000,
+								"y" : 360.000000
+							},
+							"usePortlas" : false
+						}
+					]
+				}
+			]
+		}
+	]
+}

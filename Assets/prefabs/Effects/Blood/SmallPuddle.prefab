@@ -1,0 +1,140 @@
+﻿{
+	"uid" : 0,
+	"entities" : [
+		{
+			"prefabInstance" : false,
+			"uid" : 943744,
+			"type" : "BloodPuddle",
+			"name" : "BloodPuddle",
+			"layerName" : "",
+			"visible" : true,
+			"Transform" :
+			{
+				"position" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"rotation" :
+				{
+					"x" : 0.000000,
+					"y" : 0.000000,
+					"z" : 0.000000
+				},
+				"scale" :
+				{
+					"x" : 1.000000,
+					"y" : 1.000000,
+					"z" : 1.000000
+				},
+				"size" :
+				{
+					"x" : 24.000000,
+					"y" : 24.000000,
+					"z" : 100.000000
+				},
+				"offset" :
+				{
+					"x" : 0.500000,
+					"y" : 0.500000,
+					"z" : 0.500000
+				}
+			},
+			"textures" :
+			{
+				"count" : 6,
+				"Elem" : [
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_1.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					},
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_2.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					},
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_3.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					},
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_4.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					},
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_5.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					},
+					{
+						"texture" :
+						{
+							"Path" : "prefabs/effects/blood/sprites/drops/drop_6.png",
+							"sliceIndex" : -1,
+							"animIndex" : -1
+						}
+					}
+				]
+			},
+			"noiseBlend" : 0.700000,
+			"noiseScale" : 4.000000,
+			"puddleSeed" : 0.000000,
+			"puddleScale" : 48.000000,
+			"puddleAlpha" : 1.000000,
+			"needFrame" : false,
+			"puddles" :
+			{
+				"count" : 1,
+				"Elem" : [
+					{
+						"isVisible" : true,
+						"color" :
+						{
+							"r" : 1.000000,
+							"g" : 0.000000,
+							"b" : 0.000000,
+							"a" : 1.000000
+						},
+						"offs" :
+						{
+							"x" : 0.000000,
+							"y" : 0.000000
+						},
+						"sphRadius" :
+						{
+							"x" : 2.000000,
+							"y" : 4.000000
+						},
+						"count" : 4,
+						"puddleRadius" : 5.000000,
+						"sector" :
+						{
+							"x" : 0.000000,
+							"y" : 360.000000
+						},
+						"k" : 4.000000
+					}
+				]
+			}
+		}
+	]
+}
